@@ -4,16 +4,24 @@ using UnityEngine;
 
 public class Playercontroller : MonoBehaviour
 {
+    public Komplexfeladat InputActions;
+    public float MovementSpeed;
+
     Rigidbody2D rb;
-    // Start is called before the first frame update
+    
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
+
+        InputActions = new Komplexfeladat();
+        InputActions.Enable();
     }
 
-    // Update is called once per frame
-    void Update()
+    void FixedUpdate()
     {
-        rb.velocity = new Vector2(2, 0);
+        float xInputAxis = InputActions.PlayerMove.Mozgo.ReadValue<float>();
+
+        rb.velocity = new Vector2(MovementSpeed * xInputAxis, rb.velocity.y);
     }
 }
