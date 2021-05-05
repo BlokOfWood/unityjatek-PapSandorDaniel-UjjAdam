@@ -15,14 +15,14 @@ public class @Komplexfeladat : IInputActionCollection, IDisposable
     ""name"": ""komplexfeladat"",
     ""maps"": [
         {
-            ""name"": ""Player 1"",
+            ""name"": ""Player Move"",
             ""id"": ""2f3b87a7-9504-4a02-8ec7-e7fb9150ed1d"",
             ""actions"": [
                 {
                     ""name"": ""Mozgo"",
                     ""type"": ""Value"",
                     ""id"": ""8f36b487-5a67-4b4e-a10a-c22b1a6d4057"",
-                    ""expectedControlType"": ""Vector2"",
+                    ""expectedControlType"": ""Axis"",
                     ""processors"": """",
                     ""interactions"": """"
                 },
@@ -63,7 +63,7 @@ public class @Komplexfeladat : IInputActionCollection, IDisposable
                 {
                     ""name"": ""WASD"",
                     ""id"": ""cad1cf29-4e50-42ea-830f-7600696efb83"",
-                    ""path"": ""2DVector"",
+                    ""path"": ""1DAxis"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
@@ -72,48 +72,70 @@ public class @Komplexfeladat : IInputActionCollection, IDisposable
                     ""isPartOfComposite"": false
                 },
                 {
-                    ""name"": ""up"",
+                    ""name"": ""Negative"",
                     ""id"": ""0ce0194e-8a87-41fc-849f-23d9b1d46a8a"",
-                    ""path"": ""<Keyboard>/w"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Mozgo"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""down"",
-                    ""id"": ""d84702d5-20ad-4e93-9de3-29b5c3f6a335"",
-                    ""path"": ""<Keyboard>/s"",
-                    ""interactions"": """",
-                    ""processors"": """",
-                    ""groups"": """",
-                    ""action"": ""Mozgo"",
-                    ""isComposite"": false,
-                    ""isPartOfComposite"": true
-                },
-                {
-                    ""name"": ""left"",
-                    ""id"": ""7f09f7cd-e464-4f1e-b4ce-96f89014d985"",
                     ""path"": ""<Keyboard>/a"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": """",
+                    ""groups"": ""Player 1 Control"",
                     ""action"": ""Mozgo"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
                 },
                 {
-                    ""name"": ""right"",
-                    ""id"": ""5584b268-32df-4507-9b54-080d74ded3fd"",
+                    ""name"": ""Positive"",
+                    ""id"": ""d84702d5-20ad-4e93-9de3-29b5c3f6a335"",
                     ""path"": ""<Keyboard>/d"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Player 1 Control"",
+                    ""action"": ""Mozgo"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""Nyilak"",
+                    ""id"": ""dc1eec53-5ae2-4ff2-83c9-56bba0f73601"",
+                    ""path"": ""1DAxis"",
                     ""interactions"": """",
                     ""processors"": """",
                     ""groups"": """",
                     ""action"": ""Mozgo"",
+                    ""isComposite"": true,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": ""Negative"",
+                    ""id"": ""689c46f6-a5b6-481d-bb49-463e661b0eeb"",
+                    ""path"": ""<Keyboard>/leftArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Player 2 Control"",
+                    ""action"": ""Mozgo"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": ""Positive"",
+                    ""id"": ""a01111a4-b375-43fc-bca2-70e78bf9bb17"",
+                    ""path"": ""<Keyboard>/rightArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Player 2 Control"",
+                    ""action"": ""Mozgo"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": true
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""b8173464-0963-47ef-b08c-98c8d48a6905"",
+                    ""path"": ""<Gamepad>/leftStick/x"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Player 2 Control"",
+                    ""action"": ""Mozgo"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
                 },
                 {
                     ""name"": """",
@@ -121,7 +143,40 @@ public class @Komplexfeladat : IInputActionCollection, IDisposable
                     ""path"": ""<Keyboard>/space"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": ""Keyboard&Mouse"",
+                    ""groups"": ""Player 1 Control"",
+                    ""action"": ""Ugras"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""ad16c5f8-b9dc-4354-b081-3cc2533b48c8"",
+                    ""path"": ""<Keyboard>/w"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Player 1 Control"",
+                    ""action"": ""Ugras"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""037e4543-40c2-42d8-9b27-473da306f78a"",
+                    ""path"": ""<Keyboard>/upArrow"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Player 2 Control"",
+                    ""action"": ""Ugras"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""418cdaac-088d-4bfd-bc55-1a43d14c93d3"",
+                    ""path"": ""<XInputController>/buttonSouth"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Player 2 Control"",
                     ""action"": ""Ugras"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
@@ -132,7 +187,29 @@ public class @Komplexfeladat : IInputActionCollection, IDisposable
                     ""path"": ""<Keyboard>/shift"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": ""Keyboard&Mouse"",
+                    ""groups"": ""Player 1 Control"",
+                    ""action"": ""Dash"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""6380dbc0-11da-4bf9-8fb2-631d6d5ebe39"",
+                    ""path"": ""<Keyboard>/rightShift"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Player 2 Control"",
+                    ""action"": ""Dash"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""53783bbb-13ad-416a-a959-edf304297cd2"",
+                    ""path"": ""<XInputController>/rightTrigger"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Player 2 Control"",
                     ""action"": ""Dash"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
@@ -143,7 +220,29 @@ public class @Komplexfeladat : IInputActionCollection, IDisposable
                     ""path"": ""<Keyboard>/f"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": ""Keyboard&Mouse"",
+                    ""groups"": ""Player 1 Control"",
+                    ""action"": ""Shooting"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e912ff2f-38fe-4fee-9ed6-11d415634050"",
+                    ""path"": ""<Keyboard>/rightCtrl"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Player 2 Control"",
+                    ""action"": ""Shooting"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""e85e872c-6038-46e4-a848-ed06d7864ee7"",
+                    ""path"": ""<XInputController>/buttonWest"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Player 2 Control"",
                     ""action"": ""Shooting"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
@@ -154,7 +253,29 @@ public class @Komplexfeladat : IInputActionCollection, IDisposable
                     ""path"": ""<Keyboard>/g"",
                     ""interactions"": """",
                     ""processors"": """",
-                    ""groups"": ""Keyboard&Mouse"",
+                    ""groups"": ""Player 1 Control"",
+                    ""action"": ""Switch Weapon"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""86d0357f-dfa9-4f1e-9309-d4a5d56e916c"",
+                    ""path"": ""<Keyboard>/enter"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Player 2 Control"",
+                    ""action"": ""Switch Weapon"",
+                    ""isComposite"": false,
+                    ""isPartOfComposite"": false
+                },
+                {
+                    ""name"": """",
+                    ""id"": ""0faaf6d4-3f9e-49d0-900d-a1c587746fb0"",
+                    ""path"": ""<XInputController>/rightShoulder"",
+                    ""interactions"": """",
+                    ""processors"": """",
+                    ""groups"": ""Player 2 Control"",
                     ""action"": ""Switch Weapon"",
                     ""isComposite"": false,
                     ""isPartOfComposite"": false
@@ -222,16 +343,43 @@ public class @Komplexfeladat : IInputActionCollection, IDisposable
                     ""isOR"": false
                 }
             ]
+        },
+        {
+            ""name"": ""Player 2 Control"",
+            ""bindingGroup"": ""Player 2 Control"",
+            ""devices"": [
+                {
+                    ""devicePath"": ""<Keyboard>"",
+                    ""isOptional"": false,
+                    ""isOR"": false
+                },
+                {
+                    ""devicePath"": ""<XInputController>"",
+                    ""isOptional"": true,
+                    ""isOR"": false
+                }
+            ]
+        },
+        {
+            ""name"": ""Player 1 Control"",
+            ""bindingGroup"": ""Player 1 Control"",
+            ""devices"": [
+                {
+                    ""devicePath"": ""<Keyboard>"",
+                    ""isOptional"": false,
+                    ""isOR"": false
+                }
+            ]
         }
     ]
 }");
-        // Player 1
-        m_Player1 = asset.FindActionMap("Player 1", throwIfNotFound: true);
-        m_Player1_Mozgo = m_Player1.FindAction("Mozgo", throwIfNotFound: true);
-        m_Player1_Ugras = m_Player1.FindAction("Ugras", throwIfNotFound: true);
-        m_Player1_Dash = m_Player1.FindAction("Dash", throwIfNotFound: true);
-        m_Player1_Shooting = m_Player1.FindAction("Shooting", throwIfNotFound: true);
-        m_Player1_SwitchWeapon = m_Player1.FindAction("Switch Weapon", throwIfNotFound: true);
+        // Player Move
+        m_PlayerMove = asset.FindActionMap("Player Move", throwIfNotFound: true);
+        m_PlayerMove_Mozgo = m_PlayerMove.FindAction("Mozgo", throwIfNotFound: true);
+        m_PlayerMove_Ugras = m_PlayerMove.FindAction("Ugras", throwIfNotFound: true);
+        m_PlayerMove_Dash = m_PlayerMove.FindAction("Dash", throwIfNotFound: true);
+        m_PlayerMove_Shooting = m_PlayerMove.FindAction("Shooting", throwIfNotFound: true);
+        m_PlayerMove_SwitchWeapon = m_PlayerMove.FindAction("Switch Weapon", throwIfNotFound: true);
     }
 
     public void Dispose()
@@ -278,49 +426,49 @@ public class @Komplexfeladat : IInputActionCollection, IDisposable
         asset.Disable();
     }
 
-    // Player 1
-    private readonly InputActionMap m_Player1;
-    private IPlayer1Actions m_Player1ActionsCallbackInterface;
-    private readonly InputAction m_Player1_Mozgo;
-    private readonly InputAction m_Player1_Ugras;
-    private readonly InputAction m_Player1_Dash;
-    private readonly InputAction m_Player1_Shooting;
-    private readonly InputAction m_Player1_SwitchWeapon;
-    public struct Player1Actions
+    // Player Move
+    private readonly InputActionMap m_PlayerMove;
+    private IPlayerMoveActions m_PlayerMoveActionsCallbackInterface;
+    private readonly InputAction m_PlayerMove_Mozgo;
+    private readonly InputAction m_PlayerMove_Ugras;
+    private readonly InputAction m_PlayerMove_Dash;
+    private readonly InputAction m_PlayerMove_Shooting;
+    private readonly InputAction m_PlayerMove_SwitchWeapon;
+    public struct PlayerMoveActions
     {
         private @Komplexfeladat m_Wrapper;
-        public Player1Actions(@Komplexfeladat wrapper) { m_Wrapper = wrapper; }
-        public InputAction @Mozgo => m_Wrapper.m_Player1_Mozgo;
-        public InputAction @Ugras => m_Wrapper.m_Player1_Ugras;
-        public InputAction @Dash => m_Wrapper.m_Player1_Dash;
-        public InputAction @Shooting => m_Wrapper.m_Player1_Shooting;
-        public InputAction @SwitchWeapon => m_Wrapper.m_Player1_SwitchWeapon;
-        public InputActionMap Get() { return m_Wrapper.m_Player1; }
+        public PlayerMoveActions(@Komplexfeladat wrapper) { m_Wrapper = wrapper; }
+        public InputAction @Mozgo => m_Wrapper.m_PlayerMove_Mozgo;
+        public InputAction @Ugras => m_Wrapper.m_PlayerMove_Ugras;
+        public InputAction @Dash => m_Wrapper.m_PlayerMove_Dash;
+        public InputAction @Shooting => m_Wrapper.m_PlayerMove_Shooting;
+        public InputAction @SwitchWeapon => m_Wrapper.m_PlayerMove_SwitchWeapon;
+        public InputActionMap Get() { return m_Wrapper.m_PlayerMove; }
         public void Enable() { Get().Enable(); }
         public void Disable() { Get().Disable(); }
         public bool enabled => Get().enabled;
-        public static implicit operator InputActionMap(Player1Actions set) { return set.Get(); }
-        public void SetCallbacks(IPlayer1Actions instance)
+        public static implicit operator InputActionMap(PlayerMoveActions set) { return set.Get(); }
+        public void SetCallbacks(IPlayerMoveActions instance)
         {
-            if (m_Wrapper.m_Player1ActionsCallbackInterface != null)
+            if (m_Wrapper.m_PlayerMoveActionsCallbackInterface != null)
             {
-                @Mozgo.started -= m_Wrapper.m_Player1ActionsCallbackInterface.OnMozgo;
-                @Mozgo.performed -= m_Wrapper.m_Player1ActionsCallbackInterface.OnMozgo;
-                @Mozgo.canceled -= m_Wrapper.m_Player1ActionsCallbackInterface.OnMozgo;
-                @Ugras.started -= m_Wrapper.m_Player1ActionsCallbackInterface.OnUgras;
-                @Ugras.performed -= m_Wrapper.m_Player1ActionsCallbackInterface.OnUgras;
-                @Ugras.canceled -= m_Wrapper.m_Player1ActionsCallbackInterface.OnUgras;
-                @Dash.started -= m_Wrapper.m_Player1ActionsCallbackInterface.OnDash;
-                @Dash.performed -= m_Wrapper.m_Player1ActionsCallbackInterface.OnDash;
-                @Dash.canceled -= m_Wrapper.m_Player1ActionsCallbackInterface.OnDash;
-                @Shooting.started -= m_Wrapper.m_Player1ActionsCallbackInterface.OnShooting;
-                @Shooting.performed -= m_Wrapper.m_Player1ActionsCallbackInterface.OnShooting;
-                @Shooting.canceled -= m_Wrapper.m_Player1ActionsCallbackInterface.OnShooting;
-                @SwitchWeapon.started -= m_Wrapper.m_Player1ActionsCallbackInterface.OnSwitchWeapon;
-                @SwitchWeapon.performed -= m_Wrapper.m_Player1ActionsCallbackInterface.OnSwitchWeapon;
-                @SwitchWeapon.canceled -= m_Wrapper.m_Player1ActionsCallbackInterface.OnSwitchWeapon;
+                @Mozgo.started -= m_Wrapper.m_PlayerMoveActionsCallbackInterface.OnMozgo;
+                @Mozgo.performed -= m_Wrapper.m_PlayerMoveActionsCallbackInterface.OnMozgo;
+                @Mozgo.canceled -= m_Wrapper.m_PlayerMoveActionsCallbackInterface.OnMozgo;
+                @Ugras.started -= m_Wrapper.m_PlayerMoveActionsCallbackInterface.OnUgras;
+                @Ugras.performed -= m_Wrapper.m_PlayerMoveActionsCallbackInterface.OnUgras;
+                @Ugras.canceled -= m_Wrapper.m_PlayerMoveActionsCallbackInterface.OnUgras;
+                @Dash.started -= m_Wrapper.m_PlayerMoveActionsCallbackInterface.OnDash;
+                @Dash.performed -= m_Wrapper.m_PlayerMoveActionsCallbackInterface.OnDash;
+                @Dash.canceled -= m_Wrapper.m_PlayerMoveActionsCallbackInterface.OnDash;
+                @Shooting.started -= m_Wrapper.m_PlayerMoveActionsCallbackInterface.OnShooting;
+                @Shooting.performed -= m_Wrapper.m_PlayerMoveActionsCallbackInterface.OnShooting;
+                @Shooting.canceled -= m_Wrapper.m_PlayerMoveActionsCallbackInterface.OnShooting;
+                @SwitchWeapon.started -= m_Wrapper.m_PlayerMoveActionsCallbackInterface.OnSwitchWeapon;
+                @SwitchWeapon.performed -= m_Wrapper.m_PlayerMoveActionsCallbackInterface.OnSwitchWeapon;
+                @SwitchWeapon.canceled -= m_Wrapper.m_PlayerMoveActionsCallbackInterface.OnSwitchWeapon;
             }
-            m_Wrapper.m_Player1ActionsCallbackInterface = instance;
+            m_Wrapper.m_PlayerMoveActionsCallbackInterface = instance;
             if (instance != null)
             {
                 @Mozgo.started += instance.OnMozgo;
@@ -341,7 +489,7 @@ public class @Komplexfeladat : IInputActionCollection, IDisposable
             }
         }
     }
-    public Player1Actions @Player1 => new Player1Actions(this);
+    public PlayerMoveActions @PlayerMove => new PlayerMoveActions(this);
     private int m_KeyboardMouseSchemeIndex = -1;
     public InputControlScheme KeyboardMouseScheme
     {
@@ -387,7 +535,25 @@ public class @Komplexfeladat : IInputActionCollection, IDisposable
             return asset.controlSchemes[m_XRSchemeIndex];
         }
     }
-    public interface IPlayer1Actions
+    private int m_Player2ControlSchemeIndex = -1;
+    public InputControlScheme Player2ControlScheme
+    {
+        get
+        {
+            if (m_Player2ControlSchemeIndex == -1) m_Player2ControlSchemeIndex = asset.FindControlSchemeIndex("Player 2 Control");
+            return asset.controlSchemes[m_Player2ControlSchemeIndex];
+        }
+    }
+    private int m_Player1ControlSchemeIndex = -1;
+    public InputControlScheme Player1ControlScheme
+    {
+        get
+        {
+            if (m_Player1ControlSchemeIndex == -1) m_Player1ControlSchemeIndex = asset.FindControlSchemeIndex("Player 1 Control");
+            return asset.controlSchemes[m_Player1ControlSchemeIndex];
+        }
+    }
+    public interface IPlayerMoveActions
     {
         void OnMozgo(InputAction.CallbackContext context);
         void OnUgras(InputAction.CallbackContext context);
