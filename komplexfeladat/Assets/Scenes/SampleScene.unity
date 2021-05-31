@@ -450,6 +450,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a0c2cef68f511ea4d800cbccdc88cafa, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  MovementSpeed: 10
+  DashDuration: 0.1
+  DashSpeed: 20
+  JumpSpeed: 10
 --- !u!114 &1550417886
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -477,7 +481,7 @@ MonoBehaviour:
   m_ActionEvents: []
   m_NeverAutoSwitchControlSchemes: 0
   m_DefaultControlScheme: 
-  m_DefaultActionMap: Player
+  m_DefaultActionMap: Player Move
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
 --- !u!1 &1612674570
