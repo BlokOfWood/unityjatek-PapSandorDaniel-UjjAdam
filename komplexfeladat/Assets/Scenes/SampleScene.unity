@@ -531,6 +531,7 @@ GameObject:
   - component: {fileID: 1550417883}
   - component: {fileID: 1550417882}
   - component: {fileID: 1550417881}
+  - component: {fileID: 1550417887}
   - component: {fileID: 1550417885}
   - component: {fileID: 1550417886}
   m_Layer: 0
@@ -657,6 +658,7 @@ MonoBehaviour:
   MovementSpeed: 10
   DashDuration: 0.1
   DashSpeed: 30
+  JumpVeloSens: 0.001
   JumpSpeed: 10
 --- !u!114 &1550417886
 MonoBehaviour:
@@ -688,6 +690,20 @@ MonoBehaviour:
   m_DefaultActionMap: Player Move
   m_SplitScreenIndex: -1
   m_Camera: {fileID: 0}
+--- !u!114 &1550417887
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1550417880}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 319356cc88433c74097d12488a326033, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  entity: {fileID: 11400000, guid: b8a7ee4ec2307df48bc956fe374f3313, type: 2}
+  CurrentHealth: 0
 --- !u!1 &1612674570
 GameObject:
   m_ObjectHideFlags: 0

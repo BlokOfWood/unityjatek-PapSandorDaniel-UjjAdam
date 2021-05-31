@@ -3,13 +3,15 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
+[RequireComponent(typeof(EntityComponent))]
 public class Playercontroller : MonoBehaviour
 {
     [Header("References")]
     public Komplexfeladat InputActions;
+    Rigidbody2D rb;
 
     [Header("Regular Movement")]
-    public float MovementSpeed;
+    float MovementSpeed;
     float lastMoveDirection = 0;
 
     [Header("Dash")]
@@ -20,8 +22,6 @@ public class Playercontroller : MonoBehaviour
     [Header("Jump")]
     public float JumpVeloSens;
     public float JumpSpeed;
-
-    Rigidbody2D rb;
     
 
     void Start()
@@ -30,6 +30,8 @@ public class Playercontroller : MonoBehaviour
 
         InputActions = new Komplexfeladat();
         InputActions.Enable();
+
+        MovementSpeed = GetComponent<EntityComponent>().entity.MovementSpeed;
     }
 
     void Update()
