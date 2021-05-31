@@ -22,7 +22,12 @@ public class Playercontroller : MonoBehaviour
     [Header("Jump")]
     public float JumpVeloSens;
     public float JumpSpeed;
-    
+
+    [Header("Shooting")]
+    public float BulletSpeed;
+    public int CurrIndex;
+    public Weapon[] Weapons;
+    List<GameObject> currentBullets;
 
     void Start()
     {
@@ -32,6 +37,8 @@ public class Playercontroller : MonoBehaviour
         InputActions.Enable();
 
         MovementSpeed = GetComponent<EntityComponent>().entity.MovementSpeed;
+
+        currentBullets = new List<GameObject>();
     }
 
     void Update()
@@ -64,5 +71,10 @@ public class Playercontroller : MonoBehaviour
         }
         else
             rb.velocity = new Vector2(MovementSpeed * xInputAxis, rb.velocity.y);
+    }
+
+    void Shoot()
+    {
+        currentBullets.Add(Instantiate(Weapons[CurrIndex].Bullet, transform.position, Quaternion.Euler(Vector3.right)));
     }
 }
