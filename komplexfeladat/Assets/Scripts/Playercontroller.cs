@@ -5,15 +5,20 @@ using UnityEngine.InputSystem;
 
 public class Playercontroller : MonoBehaviour
 {
+    [Header("References")]
     public Komplexfeladat InputActions;
+
     [Header("Regular Movement")]
-    float lastMoveDirection = 0;
     public float MovementSpeed;
+    float lastMoveDirection = 0;
+
     [Header("Dash")]
-    float DashCurrTime = 0;
     public float DashDuration;
     public float DashSpeed;
+    float DashCurrTime = 0;
+
     [Header("Jump")]
+    public float JumpVeloSens;
     public float JumpSpeed;
 
     Rigidbody2D rb;
@@ -34,7 +39,7 @@ public class Playercontroller : MonoBehaviour
             DashCurrTime = DashDuration;
 
         /*Jump*/
-        if (InputActions.PlayerMove.Ugras.triggered && rb.velocity.y == 0)
+        if (InputActions.PlayerMove.Ugras.triggered && rb.velocity.y < JumpVeloSens)
         {
             rb.velocity += Vector2.up * JumpSpeed;
         }
@@ -42,8 +47,10 @@ public class Playercontroller : MonoBehaviour
 
     void FixedUpdate()
     {
-        /*Input*/
+        /*Regular Movement Input*/
         float xInputAxis = InputActions.PlayerMove.Mozgo.ReadValue<float>();
+
+        /*Saving Last Move Direction*/
         if (Mathf.Abs(xInputAxis) == 1)
             lastMoveDirection = xInputAxis;
 
