@@ -1,73 +1,31 @@
 fileFormatVersion: 2
-guid: eb3eb652076964b46a2d95ad39cc3da2
+guid: a525ab238a50b184bb55d54a2012f46d
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1152628508112146077
-    second: PC Computer - Cuphead Dont Deal With the Devil - Peashooter_0
+      213: -7192593301031129864
+    second: Spread_spawn_0
   - first:
-      213: 674502935692083843
-    second: PC Computer - Cuphead Dont Deal With the Devil - Peashooter_1
+      213: 1071693096984286362
+    second: Spread_spawn_1
   - first:
-      213: 5977741213767227884
-    second: PC Computer - Cuphead Dont Deal With the Devil - Peashooter_2
+      213: 7814212875073691723
+    second: Spread_spawn_2
   - first:
-      213: -7137024848832592635
-    second: PC Computer - Cuphead Dont Deal With the Devil - Peashooter_3
+      213: 3575734079154244076
+    second: Spread_spawn_3
   - first:
-      213: 865566330173542562
-    second: Bullet_spawn 1_0
+      213: -8443146983070355911
+    second: Spread_loop_0
   - first:
-      213: 767993449901231312
-    second: Bullet_spawn 1_1
+      213: -2419045763273486115
+    second: Spread_loop_1
   - first:
-      213: -8679954293841540070
-    second: Bullet_spawn 1_2
+      213: -7975910929695805665
+    second: Spread_loop_2
   - first:
-      213: -3451493691238178658
-    second: Bullet_spawn 1_3
-  - first:
-      213: 8037082489484739878
-    second: Bullet_spawn 1_4
-  - first:
-      213: 6533119605249702841
-    second: Bullet_spawn 1_5
-  - first:
-      213: -484573627818537751
-    second: Bullet_spawn 1_6
-  - first:
-      213: 6434734393878606058
-    second: Bullet_spawn 1_7
-  - first:
-      213: 2881944345937669225
-    second: Bullet_loop 1_0
-  - first:
-      213: -3467114486093751130
-    second: Bullet_loop 1_1
-  - first:
-      213: -3441848248944238478
-    second: Bullet_loop 1_2
-  - first:
-      213: 8035517991696168902
-    second: Bullet_loop 1_3
-  - first:
-      213: 8430333184304445829
-    second: Bullet_loop 1_4
-  - first:
-      213: -1607553804185696457
-    second: Bullet_loop 1_5
-  - first:
-      213: 6443933189109736620
-    second: Bullet_loop 1_6
-  - first:
-      213: -5751476344560091236
-    second: Bullet_loop 1_7
-  - first:
-      213: -4501099961524622774
-    second: Bullet_loop 1_8
-  - first:
-      213: -707544793506910682
-    second: Bullet_loop 1_9
+      213: -1382658515644590704
+    second: Spread_loop_3
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -113,7 +71,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 0, y: 1, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -157,13 +115,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bullet_loop 1_0
+      name: Spread_loop_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1822
-        width: 80
-        height: 68
+        y: 1434
+        width: 66
+        height: 61
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +129,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96c6f0a0d19bef720800000000000000
-      internalID: 2881944345937669225
+      spriteID: 93e2ea77d8ae3da80800000000000000
+      internalID: -8443146983070355911
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullet_loop 1_1
+      name: Spread_loop_1
       rect:
         serializedVersion: 2
-        x: 85
-        y: 1801
-        width: 93
-        height: 89
+        x: 71
+        y: 1438
+        width: 64
+        height: 57
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,20 +150,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ac55c49eb552efc0800000000000000
-      internalID: -3467114486093751130
+      spriteID: dd09ba8e1b2dd6ed0800000000000000
+      internalID: -2419045763273486115
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullet_loop 1_2
+      name: Spread_loop_2
       rect:
         serializedVersion: 2
-        x: 183
-        y: 1727
-        width: 165
-        height: 163
+        x: 140
+        y: 1441
+        width: 64
+        height: 54
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -213,20 +171,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 270e0e6d0491c30d0800000000000000
-      internalID: -3441848248944238478
+      spriteID: f1f6353844fdf4190800000000000000
+      internalID: -7975910929695805665
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullet_loop 1_3
+      name: Spread_loop_3
       rect:
         serializedVersion: 2
-        x: 353
-        y: 1651
-        width: 232
-        height: 239
+        x: 209
+        y: 1439
+        width: 64
+        height: 56
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -234,50 +192,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c77f491a05e38f60800000000000000
-      internalID: 8035517991696168902
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bullet_loop 1_4
-      rect:
-        serializedVersion: 2
-        x: 590
-        y: 1620
-        width: 257
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58977a48d5f8ef470800000000000000
-      internalID: 8430333184304445829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bullet_loop 1_5
-      rect:
-        serializedVersion: 2
-        x: 852
-        y: 1611
-        width: 259
-        height: 280
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7370f201552d0b9e0800000000000000
-      internalID: -1607553804185696457
+      spriteID: 095d559d76fcfcce0800000000000000
+      internalID: -1382658515644590704
       vertices: []
       indices: 
       edges: []
