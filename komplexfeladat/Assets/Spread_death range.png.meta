@@ -1,73 +1,46 @@
 fileFormatVersion: 2
-guid: eb3eb652076964b46a2d95ad39cc3da2
+guid: d22ef391382ac734898fbf42d9413352
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1152628508112146077
-    second: PC Computer - Cuphead Dont Deal With the Devil - Peashooter_0
+      213: -7192593301031129864
+    second: Spread_spawn_0
   - first:
-      213: 674502935692083843
-    second: PC Computer - Cuphead Dont Deal With the Devil - Peashooter_1
+      213: 1071693096984286362
+    second: Spread_spawn_1
   - first:
-      213: 5977741213767227884
-    second: PC Computer - Cuphead Dont Deal With the Devil - Peashooter_2
+      213: 7814212875073691723
+    second: Spread_spawn_2
   - first:
-      213: -7137024848832592635
-    second: PC Computer - Cuphead Dont Deal With the Devil - Peashooter_3
+      213: 3575734079154244076
+    second: Spread_spawn_3
   - first:
-      213: 865566330173542562
-    second: Bullet_spawn 1_0
+      213: -8443146983070355911
+    second: Spread_loop_0
   - first:
-      213: 767993449901231312
-    second: Bullet_spawn 1_1
+      213: -2419045763273486115
+    second: Spread_loop_1
   - first:
-      213: -8679954293841540070
-    second: Bullet_spawn 1_2
+      213: -7975910929695805665
+    second: Spread_loop_2
   - first:
-      213: -3451493691238178658
-    second: Bullet_spawn 1_3
+      213: -1382658515644590704
+    second: Spread_loop_3
   - first:
-      213: 8037082489484739878
-    second: Bullet_spawn 1_4
+      213: 8457665030477325090
+    second: Spread_death_0
   - first:
-      213: 6533119605249702841
-    second: Bullet_spawn 1_5
+      213: 2973059602201353619
+    second: Spread_death_1
   - first:
-      213: -484573627818537751
-    second: Bullet_spawn 1_6
+      213: -7115312538246910093
+    second: Spread_death_2
   - first:
-      213: 6434734393878606058
-    second: Bullet_spawn 1_7
+      213: 6241132078984270755
+    second: Spread_death_3
   - first:
-      213: 2881944345937669225
-    second: Bullet_loop 1_0
-  - first:
-      213: -3467114486093751130
-    second: Bullet_loop 1_1
-  - first:
-      213: -3441848248944238478
-    second: Bullet_loop 1_2
-  - first:
-      213: 8035517991696168902
-    second: Bullet_loop 1_3
-  - first:
-      213: 8430333184304445829
-    second: Bullet_loop 1_4
-  - first:
-      213: -1607553804185696457
-    second: Bullet_loop 1_5
-  - first:
-      213: 6443933189109736620
-    second: Bullet_loop 1_6
-  - first:
-      213: -5751476344560091236
-    second: Bullet_loop 1_7
-  - first:
-      213: -4501099961524622774
-    second: Bullet_loop 1_8
-  - first:
-      213: -707544793506910682
-    second: Bullet_loop 1_9
+      213: 1238183373046089659
+    second: Spread_death_4
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -113,7 +86,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 0, y: 1, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -157,127 +130,106 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bullet_loop 1_0
+      name: Spread_death_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1822
-        width: 80
-        height: 68
+        y: 1290
+        width: 104
+        height: 106
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96c6f0a0d19bef720800000000000000
-      internalID: 2881944345937669225
+      spriteID: 22328dad889af5570800000000000000
+      internalID: 8457665030477325090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullet_loop 1_1
+      name: Spread_death_1
       rect:
         serializedVersion: 2
-        x: 85
-        y: 1801
-        width: 93
+        x: 109
+        y: 1320
+        width: 86
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39d964dc4fd624920800000000000000
+      internalID: 2973059602201353619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spread_death_2
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 1312
+        width: 99
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37fe8ebe1f4514d90800000000000000
+      internalID: -7115312538246910093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spread_death_3
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 1307
+        width: 109
         height: 89
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ac55c49eb552efc0800000000000000
-      internalID: -3467114486093751130
+      spriteID: 3a317241f84fc9650800000000000000
+      internalID: 6241132078984270755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullet_loop 1_2
+      name: Spread_death_4
       rect:
         serializedVersion: 2
-        x: 183
-        y: 1727
-        width: 165
-        height: 163
+        x: 418
+        y: 1304
+        width: 113
+        height: 92
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 270e0e6d0491c30d0800000000000000
-      internalID: -3441848248944238478
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bullet_loop 1_3
-      rect:
-        serializedVersion: 2
-        x: 353
-        y: 1651
-        width: 232
-        height: 239
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6c77f491a05e38f60800000000000000
-      internalID: 8035517991696168902
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bullet_loop 1_4
-      rect:
-        serializedVersion: 2
-        x: 590
-        y: 1620
-        width: 257
-        height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 58977a48d5f8ef470800000000000000
-      internalID: 8430333184304445829
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bullet_loop 1_5
-      rect:
-        serializedVersion: 2
-        x: 852
-        y: 1611
-        width: 259
-        height: 280
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7370f201552d0b9e0800000000000000
-      internalID: -1607553804185696457
+      spriteID: bb70535b739ee2110800000000000000
+      internalID: 1238183373046089659
       vertices: []
       indices: 
       edges: []
