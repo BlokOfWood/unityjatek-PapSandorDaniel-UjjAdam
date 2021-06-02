@@ -52,6 +52,12 @@ public class Playercontroller : MonoBehaviour
         {
             rb.velocity += Vector2.up * JumpSpeed;
         }
+
+        /*Shoot Trigger*/
+        if(InputActions.PlayerMove.Shooting.triggered)
+        {
+            Shoot();
+        }
     }
 
     void FixedUpdate()

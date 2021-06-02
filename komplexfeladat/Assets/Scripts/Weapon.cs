@@ -1,5 +1,6 @@
 using UnityEngine;
 
+[CreateAssetMenu(menuName = "Weapon")]
 public class Weapon : ScriptableObject
 {
     public byte Damage;

@@ -2,7 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-[CreateAssetMenu(menuName = "Create Entity")]
+[CreateAssetMenu(menuName = "Entity")]
 public class Entity : ScriptableObject
 {
     public short Health;
