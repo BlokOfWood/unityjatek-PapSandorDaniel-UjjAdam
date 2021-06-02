@@ -17,5 +17,5 @@ MonoBehaviour:
   Range: 25
   Bullet: {fileID: 7960381614263260009, guid: 7d9219f73a7cbf84a904fe7e5e877c05, type: 3}
   BulletSpawn: {fileID: 0}
-  BulletDestroy: {fileID: 0}
+  BulletDestroy: {fileID: 3803308574603904266, guid: 629dffb090203b143afc69cf25719ed2, type: 3}
   Name: Peashooter

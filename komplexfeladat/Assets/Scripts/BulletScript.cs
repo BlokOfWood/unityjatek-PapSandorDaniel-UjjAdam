@@ -17,8 +17,9 @@ public class BulletScript : MonoBehaviour
     {
         if (originWeapon.Range < Vector2.Distance(startPos, transform.position))
         {
-            Instantiate(originWeapon.BulletDestroy, transform.position, Quaternion.identity);
-            Destroy(gameObject);
+            GetComponent<Animator>().SetTrigger("Destroy"); 
+            Destroy(gameObject, GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
+            Destroy(this);
             return;
         }
 
