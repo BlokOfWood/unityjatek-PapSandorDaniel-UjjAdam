@@ -164,8 +164,8 @@ TextureImporter:
         y: 1822
         width: 80
         height: 68
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5262686, y: 0.4646786}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -185,8 +185,8 @@ TextureImporter:
         y: 1801
         width: 93
         height: 89
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.49354357, y: 0.46626607}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -206,8 +206,8 @@ TextureImporter:
         y: 1727
         width: 165
         height: 163
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.51091677, y: 0.44842792}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -223,12 +223,12 @@ TextureImporter:
       name: Bullet_loop 1_3
       rect:
         serializedVersion: 2
-        x: 353
+        x: 354
         y: 1651
         width: 232
         height: 239
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.51877105, y: 0.45414293}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -248,8 +248,8 @@ TextureImporter:
         y: 1620
         width: 257
         height: 270
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.51664954, y: 0.45997044}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -269,8 +269,8 @@ TextureImporter:
         y: 1611
         width: 259
         height: 280
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      alignment: 9
+      pivot: {x: 0.5262251, y: 0.47524893}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
