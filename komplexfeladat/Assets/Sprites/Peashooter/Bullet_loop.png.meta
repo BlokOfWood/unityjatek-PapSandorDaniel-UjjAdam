@@ -1,31 +1,43 @@
 fileFormatVersion: 2
-guid: a525ab238a50b184bb55d54a2012f46d
+guid: c7a072243b7d6484e8bfdeec64f62e33
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -7192593301031129864
-    second: Spread_spawn_0
+      213: -1152628508112146077
+    second: PC Computer - Cuphead Dont Deal With the Devil - Peashooter_0
   - first:
-      213: 1071693096984286362
-    second: Spread_spawn_1
+      213: 674502935692083843
+    second: PC Computer - Cuphead Dont Deal With the Devil - Peashooter_1
   - first:
-      213: 7814212875073691723
-    second: Spread_spawn_2
+      213: 5977741213767227884
+    second: PC Computer - Cuphead Dont Deal With the Devil - Peashooter_2
   - first:
-      213: 3575734079154244076
-    second: Spread_spawn_3
+      213: -7137024848832592635
+    second: PC Computer - Cuphead Dont Deal With the Devil - Peashooter_3
   - first:
-      213: -8443146983070355911
-    second: Spread_loop_0
+      213: 865566330173542562
+    second: Bullet_spawn 1_0
   - first:
-      213: -2419045763273486115
-    second: Spread_loop_1
+      213: 767993449901231312
+    second: Bullet_spawn 1_1
   - first:
-      213: -7975910929695805665
-    second: Spread_loop_2
+      213: -8679954293841540070
+    second: Bullet_spawn 1_2
   - first:
-      213: -1382658515644590704
-    second: Spread_loop_3
+      213: -3451493691238178658
+    second: Bullet_spawn 1_3
+  - first:
+      213: 8037082489484739878
+    second: Bullet_spawn 1_4
+  - first:
+      213: 6533119605249702841
+    second: Bullet_spawn 1_5
+  - first:
+      213: -484573627818537751
+    second: Bullet_spawn 1_6
+  - first:
+      213: 6434734393878606058
+    second: Bullet_spawn 1_7
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -56,7 +68,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -71,7 +83,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 1, z: 0, w: 0}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -115,13 +127,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spread_loop_0
+      name: Bullet_spawn 1_2
       rect:
         serializedVersion: 2
-        x: 0
-        y: 1434
-        width: 66
-        height: 61
+        x: 139
+        y: 1902
+        width: 157
+        height: 41
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -129,20 +141,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 93e2ea77d8ae3da80800000000000000
-      internalID: -8443146983070355911
+      spriteID: a1cc2f0ee8b9a8780800000000000000
+      internalID: -8679954293841540070
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spread_loop_1
+      name: Bullet_spawn 1_3
       rect:
         serializedVersion: 2
-        x: 71
-        y: 1438
-        width: 64
-        height: 57
+        x: 301
+        y: 1899
+        width: 148
+        height: 44
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -150,20 +162,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: dd09ba8e1b2dd6ed0800000000000000
-      internalID: -2419045763273486115
+      spriteID: e902f3d46c4d910d0800000000000000
+      internalID: -3451493691238178658
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spread_loop_2
+      name: Bullet_spawn 1_4
       rect:
         serializedVersion: 2
-        x: 140
-        y: 1441
-        width: 64
-        height: 54
+        x: 454
+        y: 1902
+        width: 144
+        height: 41
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -171,20 +183,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: f1f6353844fdf4190800000000000000
-      internalID: -7975910929695805665
+      spriteID: 625004021f3798f60800000000000000
+      internalID: 8037082489484739878
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spread_loop_3
+      name: Bullet_spawn 1_5
       rect:
         serializedVersion: 2
-        x: 209
-        y: 1439
-        width: 64
-        height: 56
+        x: 603
+        y: 1895
+        width: 159
+        height: 48
       alignment: 0
       pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -192,8 +204,50 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 095d559d76fcfcce0800000000000000
-      internalID: -1382658515644590704
+      spriteID: 9bb7c02caad4aaa50800000000000000
+      internalID: 6533119605249702841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_spawn 1_6
+      rect:
+        serializedVersion: 2
+        x: 767
+        y: 1898
+        width: 136
+        height: 45
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ec8a565ad27649f0800000000000000
+      internalID: -484573627818537751
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Bullet_spawn 1_7
+      rect:
+        serializedVersion: 2
+        x: 908
+        y: 1906
+        width: 122
+        height: 37
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae07f1ba6d4cc4950800000000000000
+      internalID: 6434734393878606058
       vertices: []
       indices: 
       edges: []

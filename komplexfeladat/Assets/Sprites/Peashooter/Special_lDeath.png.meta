@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: eb3eb652076964b46a2d95ad39cc3da2
+guid: 257b1c84156efdd49bb5639b6e1164bf
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -68,6 +68,33 @@ TextureImporter:
   - first:
       213: -707544793506910682
     second: Bullet_loop 1_9
+  - first:
+      213: -6045321236108310483
+    second: Special_loop 1_0
+  - first:
+      213: -6828223062424907740
+    second: Special_loop 1_1
+  - first:
+      213: 6108997836004741214
+    second: Special_loop 1_2
+  - first:
+      213: -6264688424907490726
+    second: Special_loop 1_3
+  - first:
+      213: -3303094140125252810
+    second: Special_loop 1_4
+  - first:
+      213: 4982673300161440469
+    second: Special_loop 1_5
+  - first:
+      213: 6214378287079911562
+    second: Special_loop 1_6
+  - first:
+      213: 5786275271510370698
+    second: Special_loop 1_7
+  - first:
+      213: 5490199898379946169
+    second: Special_loop 1_8
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -98,7 +125,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -157,127 +184,190 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bullet_loop 1_0
+      name: Special_loop 1_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 1822
-        width: 80
-        height: 68
+        y: 878
+        width: 302
+        height: 284
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 96c6f0a0d19bef720800000000000000
-      internalID: 2881944345937669225
+      spriteID: d2883a08d54ba1ca0800000000000000
+      internalID: -6045321236108310483
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullet_loop 1_1
+      name: Special_loop 1_1
       rect:
         serializedVersion: 2
-        x: 85
-        y: 1801
-        width: 93
-        height: 89
+        x: 307
+        y: 838
+        width: 352
+        height: 324
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6ac55c49eb552efc0800000000000000
-      internalID: -3467114486093751130
+      spriteID: 420980d5d474d31a0800000000000000
+      internalID: -6828223062424907740
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullet_loop 1_2
+      name: Special_loop 1_2
       rect:
         serializedVersion: 2
-        x: 183
-        y: 1727
-        width: 165
-        height: 163
+        x: 664
+        y: 784
+        width: 405
+        height: 378
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 270e0e6d0491c30d0800000000000000
-      internalID: -3441848248944238478
+      spriteID: e5051bc3a2587c450800000000000000
+      internalID: 6108997836004741214
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullet_loop 1_3
+      name: Special_loop 1_3
       rect:
         serializedVersion: 2
-        x: 353
-        y: 1651
-        width: 232
-        height: 239
+        x: 1074
+        y: 750
+        width: 448
+        height: 412
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 6c77f491a05e38f60800000000000000
-      internalID: 8035517991696168902
+      spriteID: a5a33ecb11b5f09a0800000000000000
+      internalID: -6264688424907490726
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullet_loop 1_4
+      name: Special_loop 1_4
       rect:
         serializedVersion: 2
-        x: 590
-        y: 1620
-        width: 257
-        height: 270
+        x: 1527
+        y: 725
+        width: 492
+        height: 437
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 58977a48d5f8ef470800000000000000
-      internalID: 8430333184304445829
+      spriteID: 633f82e416d0922d0800000000000000
+      internalID: -3303094140125252810
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullet_loop 1_5
+      name: Special_loop 1_5
       rect:
         serializedVersion: 2
-        x: 852
-        y: 1611
-        width: 259
-        height: 280
+        x: 0
+        y: 266
+        width: 513
+        height: 454
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 7370f201552d0b9e0800000000000000
-      internalID: -1607553804185696457
+      spriteID: 5da22f797f2062540800000000000000
+      internalID: 4982673300161440469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Special_loop 1_6
+      rect:
+        serializedVersion: 2
+        x: 518
+        y: 253
+        width: 523
+        height: 467
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a807c4d7028ed3650800000000000000
+      internalID: 6214378287079911562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Special_loop 1_7
+      rect:
+        serializedVersion: 2
+        x: 1046
+        y: 241
+        width: 504
+        height: 479
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a89a003d3bafc4050800000000000000
+      internalID: 5786275271510370698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Special_loop 1_8
+      rect:
+        serializedVersion: 2
+        x: 1555
+        y: 249
+        width: 476
+        height: 471
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b882d028bb113c40800000000000000
+      internalID: 5490199898379946169
       vertices: []
       indices: 
       edges: []

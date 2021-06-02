@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 92c0d09365836ac40b0ac33e10e1e82a
+guid: d22ef391382ac734898fbf42d9413352
 TextureImporter:
   internalIDToNameTable:
   - first:
@@ -41,60 +41,6 @@ TextureImporter:
   - first:
       213: 1238183373046089659
     second: Spread_death_4
-  - first:
-      213: 1731286084390998971
-    second: Spread_death range 1_0
-  - first:
-      213: 5151414477768309834
-    second: Spread_death range 1_1
-  - first:
-      213: -2636922474124140722
-    second: Spread_death range 1_2
-  - first:
-      213: 14177823833793705
-    second: Spread_death enemy 1_0
-  - first:
-      213: -775415990871224804
-    second: Spread_death enemy 1_1
-  - first:
-      213: -7264904976217925420
-    second: Spread_death enemy 1_2
-  - first:
-      213: 6970246838633883989
-    second: Spread_death enemy 1_3
-  - first:
-      213: -4219964675717778297
-    second: Spread_death enemy 1_4
-  - first:
-      213: -6325433093681762814
-    second: Spread_Ex spawn 1_0
-  - first:
-      213: -8452819416326410892
-    second: Spread_Ex spawn 1_1
-  - first:
-      213: -3782311072991224771
-    second: Spread_Ex spawn 1_2
-  - first:
-      213: -3889891190447405932
-    second: Spread_Ex spawn 1_3
-  - first:
-      213: -3374850357464181646
-    second: Spread_Ex loop 1_0
-  - first:
-      213: -2032431206890873194
-    second: Spread_Ex loop 1_1
-  - first:
-      213: -7330957739887553079
-    second: Spread_Ex loop 1_2
-  - first:
-      213: 621923145880990136
-    second: Spread_Ex loop 1_3
-  - first:
-      213: 2657432475176519685
-    second: Spread_Ex loop 1_4
-  - first:
-      213: -7222856525638036898
-    second: Spread_Ex loop 1_5
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -125,7 +71,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -184,13 +130,13 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Spread_Ex loop 1_0
+      name: Spread_death_0
       rect:
         serializedVersion: 2
         x: 0
-        y: 537
-        width: 136
-        height: 131
+        y: 1290
+        width: 104
+        height: 106
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -198,20 +144,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 2745f390b7f1a21d0800000000000000
-      internalID: -3374850357464181646
+      spriteID: 22328dad889af5570800000000000000
+      internalID: 8457665030477325090
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spread_Ex loop 1_1
+      name: Spread_death_1
       rect:
         serializedVersion: 2
-        x: 140
-        y: 465
-        width: 200
-        height: 203
+        x: 109
+        y: 1320
+        width: 86
+        height: 76
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,20 +165,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 69ed9dae59a5bc3e0800000000000000
-      internalID: -2032431206890873194
+      spriteID: 39d964dc4fd624920800000000000000
+      internalID: 2973059602201353619
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spread_Ex loop 1_2
+      name: Spread_death_2
       rect:
         serializedVersion: 2
-        x: 346
-        y: 418
-        width: 263
-        height: 250
+        x: 200
+        y: 1312
+        width: 99
+        height: 84
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,20 +186,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9c51a92d6c4334a90800000000000000
-      internalID: -7330957739887553079
+      spriteID: 37fe8ebe1f4514d90800000000000000
+      internalID: -7115312538246910093
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spread_Ex loop 1_3
+      name: Spread_death_3
       rect:
         serializedVersion: 2
-        x: 614
-        y: 374
-        width: 317
-        height: 294
+        x: 304
+        y: 1307
+        width: 109
+        height: 89
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,20 +207,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 8b174db5ec381a800800000000000000
-      internalID: 621923145880990136
+      spriteID: 3a317241f84fc9650800000000000000
+      internalID: 6241132078984270755
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Spread_Ex loop 1_4
+      name: Spread_death_4
       rect:
         serializedVersion: 2
-        x: 935
-        y: 347
-        width: 340
-        height: 321
+        x: 418
+        y: 1304
+        width: 113
+        height: 92
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,29 +228,8 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 508cb79a1c811e420800000000000000
-      internalID: 2657432475176519685
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Spread_Ex loop 1_5
-      rect:
-        serializedVersion: 2
-        x: 1280
-        y: 334
-        width: 351
-        height: 334
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e529bbd124243cb90800000000000000
-      internalID: -7222856525638036898
+      spriteID: bb70535b739ee2110800000000000000
+      internalID: 1238183373046089659
       vertices: []
       indices: 
       edges: []

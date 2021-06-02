@@ -1,43 +1,55 @@
 fileFormatVersion: 2
-guid: c7a072243b7d6484e8bfdeec64f62e33
+guid: 63054f45cdccce349b7e076abe522519
 TextureImporter:
   internalIDToNameTable:
   - first:
-      213: -1152628508112146077
-    second: PC Computer - Cuphead Dont Deal With the Devil - Peashooter_0
+      213: -7192593301031129864
+    second: Spread_spawn_0
   - first:
-      213: 674502935692083843
-    second: PC Computer - Cuphead Dont Deal With the Devil - Peashooter_1
+      213: 1071693096984286362
+    second: Spread_spawn_1
   - first:
-      213: 5977741213767227884
-    second: PC Computer - Cuphead Dont Deal With the Devil - Peashooter_2
+      213: 7814212875073691723
+    second: Spread_spawn_2
   - first:
-      213: -7137024848832592635
-    second: PC Computer - Cuphead Dont Deal With the Devil - Peashooter_3
+      213: 3575734079154244076
+    second: Spread_spawn_3
   - first:
-      213: 865566330173542562
-    second: Bullet_spawn 1_0
+      213: -8443146983070355911
+    second: Spread_loop_0
   - first:
-      213: 767993449901231312
-    second: Bullet_spawn 1_1
+      213: -2419045763273486115
+    second: Spread_loop_1
   - first:
-      213: -8679954293841540070
-    second: Bullet_spawn 1_2
+      213: -7975910929695805665
+    second: Spread_loop_2
   - first:
-      213: -3451493691238178658
-    second: Bullet_spawn 1_3
+      213: -1382658515644590704
+    second: Spread_loop_3
   - first:
-      213: 8037082489484739878
-    second: Bullet_spawn 1_4
+      213: 8457665030477325090
+    second: Spread_death_0
   - first:
-      213: 6533119605249702841
-    second: Bullet_spawn 1_5
+      213: 2973059602201353619
+    second: Spread_death_1
   - first:
-      213: -484573627818537751
-    second: Bullet_spawn 1_6
+      213: -7115312538246910093
+    second: Spread_death_2
   - first:
-      213: 6434734393878606058
-    second: Bullet_spawn 1_7
+      213: 6241132078984270755
+    second: Spread_death_3
+  - first:
+      213: 1238183373046089659
+    second: Spread_death_4
+  - first:
+      213: 1731286084390998971
+    second: Spread_death range 1_0
+  - first:
+      213: 5151414477768309834
+    second: Spread_death range 1_1
+  - first:
+      213: -2636922474124140722
+    second: Spread_death range 1_2
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -68,7 +80,7 @@ TextureImporter:
   maxTextureSize: 2048
   textureSettings:
     serializedVersion: 2
-    filterMode: -1
+    filterMode: 0
     aniso: -1
     mipBias: -100
     wrapU: 1
@@ -83,7 +95,7 @@ TextureImporter:
   alignment: 0
   spritePivot: {x: 0.5, y: 0.5}
   spritePixelsToUnits: 100
-  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteBorder: {x: 0, y: 1, z: 0, w: 0}
   spriteGenerateFallbackPhysicsShape: 1
   alphaUsage: 1
   alphaIsTransparency: 1
@@ -127,127 +139,64 @@ TextureImporter:
     serializedVersion: 2
     sprites:
     - serializedVersion: 2
-      name: Bullet_spawn 1_2
+      name: Spread_death range 1_0
       rect:
         serializedVersion: 2
-        x: 139
-        y: 1902
-        width: 157
-        height: 41
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: a1cc2f0ee8b9a8780800000000000000
-      internalID: -8679954293841540070
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bullet_spawn 1_3
-      rect:
-        serializedVersion: 2
-        x: 301
-        y: 1899
+        x: 0
+        y: 1071
         width: 148
-        height: 44
+        height: 128
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: e902f3d46c4d910d0800000000000000
-      internalID: -3451493691238178658
+      spriteID: bb3d3b06583c60810800000000000000
+      internalID: 1731286084390998971
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullet_spawn 1_4
+      name: Spread_death range 1_1
       rect:
         serializedVersion: 2
-        x: 454
-        y: 1902
-        width: 144
-        height: 41
+        x: 153
+        y: 1065
+        width: 142
+        height: 134
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 625004021f3798f60800000000000000
-      internalID: 8037082489484739878
+      spriteID: a4c3f269c208d7740800000000000000
+      internalID: 5151414477768309834
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Bullet_spawn 1_5
+      name: Spread_death range 1_2
       rect:
         serializedVersion: 2
-        x: 603
-        y: 1895
-        width: 159
-        height: 48
+        x: 300
+        y: 1105
+        width: 93
+        height: 94
       alignment: 0
-      pivot: {x: 0.5, y: 0.5}
+      pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 9bb7c02caad4aaa50800000000000000
-      internalID: 6533119605249702841
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bullet_spawn 1_6
-      rect:
-        serializedVersion: 2
-        x: 767
-        y: 1898
-        width: 136
-        height: 45
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 9ec8a565ad27649f0800000000000000
-      internalID: -484573627818537751
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Bullet_spawn 1_7
-      rect:
-        serializedVersion: 2
-        x: 908
-        y: 1906
-        width: 122
-        height: 37
-      alignment: 0
-      pivot: {x: 0.5, y: 0.5}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: ae07f1ba6d4cc4950800000000000000
-      internalID: 6434734393878606058
+      spriteID: e4f16951bf4c76bd0800000000000000
+      internalID: -2636922474124140722
       vertices: []
       indices: 
       edges: []
