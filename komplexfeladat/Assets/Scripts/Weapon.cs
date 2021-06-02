@@ -4,9 +4,10 @@ using UnityEngine;
 public class Weapon : ScriptableObject
 {
     public byte Damage;
+    public float BulletSpeed;
     public float Range;
     public GameObject Bullet;
-    public Sprite BulletExp;
-    public Sprite BulletLoop;
+    public GameObject BulletSpawn;
+    public GameObject BulletDestroy;
     public string Name;
 }

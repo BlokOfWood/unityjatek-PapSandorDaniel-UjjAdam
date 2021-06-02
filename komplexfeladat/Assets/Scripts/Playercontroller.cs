@@ -82,5 +82,7 @@ public class Playercontroller : MonoBehaviour
     void Shoot()
     {
         currentBullets.Add(Instantiate(Weapons[CurrIndex].Bullet, transform.position, Quaternion.Euler(Vector3.right)));
+        currentBullets[currentBullets.Count - 1].GetComponent<BulletScript>().originGameObject = gameObject;
+        currentBullets[currentBullets.Count - 1].GetComponent<BulletScript>().originWeapon = Weapons[CurrIndex];
     }
 }

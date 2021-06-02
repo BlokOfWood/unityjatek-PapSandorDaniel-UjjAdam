@@ -13,8 +13,9 @@ MonoBehaviour:
   m_Name: Peashooter
   m_EditorClassIdentifier: 
   Damage: 1
-  Range: 4500
-  Bullet: {fileID: 0}
-  BulletExp: {fileID: 0}
-  BulletLoop: {fileID: 0}
-  Name: 
+  BulletSpeed: 10
+  Range: 25
+  Bullet: {fileID: 7960381614263260009, guid: 7d9219f73a7cbf84a904fe7e5e877c05, type: 3}
+  BulletSpawn: {fileID: 0}
+  BulletDestroy: {fileID: 0}
+  Name: Peashooter
