@@ -3379,7 +3379,8 @@ MonoBehaviour:
   JumpSpeed: 13
   BulletSpeed: 0
   CurrIndex: 0
-  Weapons: []
+  Weapons:
+  - {fileID: 11400000, guid: 924f6714b68638641b12b5cbfe6ada21, type: 2}
 --- !u!114 &1550417886
 MonoBehaviour:
   m_ObjectHideFlags: 0
