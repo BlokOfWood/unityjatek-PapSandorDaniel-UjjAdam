@@ -1,0 +1,1335 @@
+fileFormatVersion: 2
+guid: 09aeac16407e8ba41946142191cc08df
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5586510295386085370
+    second: Goatman_Spawn_0
+  - first:
+      213: -6074933797981136028
+    second: Goatman_Spawn_1
+  - first:
+      213: 7318357107887949072
+    second: Goatman_Spawn_2
+  - first:
+      213: -4617592131131183040
+    second: Goatman_Spawn_3
+  - first:
+      213: -5881120802745388143
+    second: Goatman_Spawn_4
+  - first:
+      213: -3687679948799662906
+    second: Goatman_Spawn_5
+  - first:
+      213: -9082528470660851213
+    second: Goatman_Spawn_6
+  - first:
+      213: 1478193804221291949
+    second: Goatman_Spawn_7
+  - first:
+      213: -6990427838098406373
+    second: Goatman_Spawn_8
+  - first:
+      213: -3633548191671632409
+    second: Goatman_Spawn_9
+  - first:
+      213: 2582885404203912851
+    second: Goatman_Spawn_10
+  - first:
+      213: -3355768960757764838
+    second: Goatman_Spawn_11
+  - first:
+      213: -6256033577646884312
+    second: Goatman_Spawn_12
+  - first:
+      213: -5864263609631819395
+    second: Goatman_Spawn_13
+  - first:
+      213: -9168823762106008882
+    second: Goatman_Spawn_14
+  - first:
+      213: 2751714894379051249
+    second: Goatman_Spawn_15
+  - first:
+      213: 855096681208287662
+    second: Goatman_Spawn_16
+  - first:
+      213: -8707384047459244304
+    second: Goatman_Spawn_17
+  - first:
+      213: -3989338140597334603
+    second: Goatman_Spawn_18
+  - first:
+      213: -2519003845567376903
+    second: Goatman_Spawn_19
+  - first:
+      213: -2348728653464226668
+    second: Goatman_Spawn_20
+  - first:
+      213: -6344860052024460919
+    second: Goatman_Spawn_21
+  - first:
+      213: 4903209508708205798
+    second: Goatman_Spawn_22
+  - first:
+      213: -6041991781502476139
+    second: Goatman_Spawn_23
+  - first:
+      213: -8972804061497867403
+    second: Goatman_Spawn_24
+  - first:
+      213: -1353531468561519410
+    second: Goatman_Spawn_25
+  - first:
+      213: -5415049596290094958
+    second: Goatman_Spawn_26
+  - first:
+      213: -8782525734612931146
+    second: Goatman_Spawn_27
+  - first:
+      213: -1288873201294799828
+    second: Goatman_Spawn_28
+  - first:
+      213: -3369049653274639633
+    second: Goatman_Spawn_29
+  - first:
+      213: -2802515154035317076
+    second: Goatman_Spawn_30
+  - first:
+      213: -3996258263474372578
+    second: Goatman_Spawn_31
+  - first:
+      213: -7839204783880849296
+    second: Goatman_Spawn_32
+  - first:
+      213: -3470562065253455088
+    second: Goatman_Spawn 1_0
+  - first:
+      213: -6318168203670325802
+    second: Goatman_Spawn 1_1
+  - first:
+      213: 4512360718714057167
+    second: Goatman_Spawn 1_2
+  - first:
+      213: -793982470993620521
+    second: Goatman_Spawn 1_3
+  - first:
+      213: 319558638386729865
+    second: Goatman_Spawn 1_4
+  - first:
+      213: 5049309960761078703
+    second: Goatman_Spawn 1_5
+  - first:
+      213: -2076444322051779331
+    second: Goatman_Spawn 1_6
+  - first:
+      213: 461333922677391955
+    second: Goatman_Spawn 1_7
+  - first:
+      213: -3630096745360246777
+    second: Goatman_Spawn 1_8
+  - first:
+      213: 1017390295381422047
+    second: Goatman_Spawn 1_9
+  - first:
+      213: -2444842422789977739
+    second: Goatman_Spawn 1_10
+  - first:
+      213: 5618873480335342491
+    second: Goatman_Spawn 1_11
+  - first:
+      213: -6053719624080122517
+    second: Goatman_Spawn 1_12
+  - first:
+      213: 8585986405009958028
+    second: Goatman_Spawn 1_13
+  - first:
+      213: -5841307941083007326
+    second: Goatman_Spawn 1_14
+  - first:
+      213: -4288478929513112692
+    second: Goatman_Spawn 1_15
+  - first:
+      213: -2946850528591672112
+    second: Goatman_Spawn 1_16
+  - first:
+      213: 6537962844742136897
+    second: Goatman_Spawn 1_17
+  - first:
+      213: 9048795484587257001
+    second: Goatman_Spawn 1_18
+  - first:
+      213: 9172414294774791623
+    second: Goatman_Spawn 1_19
+  - first:
+      213: 4599020699677346710
+    second: Goatman_Spawn 1_20
+  - first:
+      213: 3361079573528244415
+    second: Goatman_Spawn 1_21
+  - first:
+      213: 9157571030331713701
+    second: Goatman_Spawn 1_22
+  - first:
+      213: 2183683031875205662
+    second: Goatman_Spawn 1_23
+  - first:
+      213: -4060475879976773006
+    second: Goatman_Spawn 1_24
+  - first:
+      213: -4694096783972263006
+    second: Goatman_Spawn 1_25
+  - first:
+      213: 2649004149368724961
+    second: Goatman_Spawn 1_26
+  - first:
+      213: -6366024905880328730
+    second: Goatman_Spawn 1_27
+  - first:
+      213: 5379160565216844089
+    second: Goatman_Spawn 1_28
+  - first:
+      213: 2051333564933762437
+    second: Goatman_Spawn 1_29
+  - first:
+      213: 8300755893398643742
+    second: Goatman_Spawn 1_30
+  - first:
+      213: -6663353657419678059
+    second: Goatman_Spawn 1_31
+  - first:
+      213: -1695229132564361105
+    second: Goatman_Spawn 1_32
+  - first:
+      213: 1813703555578455597
+    second: Goatman_Spawn 1_33
+  - first:
+      213: 8930512022660864417
+    second: Goatman_Spawn 1_34
+  - first:
+      213: -3297482746568727800
+    second: Goatman_Spawn 1_35
+  - first:
+      213: -821328344709230927
+    second: Goatman_Spawn 1_36
+  - first:
+      213: 4781137815080713096
+    second: Goatman_Spawn 1_37
+  - first:
+      213: 7102465938797990108
+    second: Goatman_Spawn 1_38
+  - first:
+      213: -1127440547932592209
+    second: Goatman_Spawn 1_39
+  - first:
+      213: 3527475304666789361
+    second: Goatman_Spawn 1_40
+  - first:
+      213: 2872498166313371230
+    second: Goatman_Spawn 1_41
+  - first:
+      213: -3840151337561048161
+    second: Goatman_Spawn 1_42
+  - first:
+      213: -2205470356582981602
+    second: Goatman_Spawn 1_43
+  - first:
+      213: 1540847021389073255
+    second: Goatman_Spawn 1_44
+  - first:
+      213: 307341606351415818
+    second: Goatman_Spawn 1_45
+  - first:
+      213: -6073577867357761003
+    second: Goatman_Spawn 1_46
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2547
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01b2f91803616dfc0800000000000000
+      internalID: -3470562065253455088
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_1
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2547
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d5ff0d6e7b5158a0800000000000000
+      internalID: -6318168203670325802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_2
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 2547
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fc1b0698a202f9e30800000000000000
+      internalID: 4512360718714057167
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_3
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 2547
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7d1d98a36253bf4f0800000000000000
+      internalID: -793982470993620521
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_4
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 2547
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 983d2f573ec4f6400800000000000000
+      internalID: 319558638386729865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_5
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 2547
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa3710c28a0c21640800000000000000
+      internalID: 5049309960761078703
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_6
+      rect:
+        serializedVersion: 2
+        x: 2678
+        y: 2547
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df41a3cf3ecfe23e0800000000000000
+      internalID: -2076444322051779331
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_7
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 2145
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 352060822ccf66600800000000000000
+      internalID: 461333922677391955
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_8
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 2145
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70830804e3e4f9dc0800000000000000
+      internalID: -3630096745360246777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_9
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 2145
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fdfa322551f7e1e00800000000000000
+      internalID: 1017390295381422047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_10
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 2145
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5794cc115cc221ed0800000000000000
+      internalID: -2444842422789977739
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_11
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 2145
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9b304909af3afd40800000000000000
+      internalID: 5618873480335342491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_12
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 2145
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6d94ec631edcfba0800000000000000
+      internalID: -6053719624080122517
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_13
+      rect:
+        serializedVersion: 2
+        x: 2678
+        y: 2145
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c84a3f4152d872770800000000000000
+      internalID: 8585986405009958028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_14
+      rect:
+        serializedVersion: 2
+        x: 3124
+        y: 2145
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a6341c40618feea0800000000000000
+      internalID: -5841307941083007326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_15
+      rect:
+        serializedVersion: 2
+        x: 3570
+        y: 2145
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8b9f9b82234c74c0800000000000000
+      internalID: -4288478929513112692
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_16
+      rect:
+        serializedVersion: 2
+        x: 4017
+        y: 2144
+        width: 442
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0dc0f1dae0faa17d0800000000000000
+      internalID: -2946850528591672112
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_17
+      rect:
+        serializedVersion: 2
+        x: 4463
+        y: 2145
+        width: 443
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144be8351928bba50800000000000000
+      internalID: 6537962844742136897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_18
+      rect:
+        serializedVersion: 2
+        x: 4908
+        y: 2145
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ac6bf7fc87c39d70800000000000000
+      internalID: 9048795484587257001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_19
+      rect:
+        serializedVersion: 2
+        x: 5354
+        y: 2145
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7cd34cc1436fa4f70800000000000000
+      internalID: 9172414294774791623
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_20
+      rect:
+        serializedVersion: 2
+        x: 5800
+        y: 2145
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69bcfeea5f003df30800000000000000
+      internalID: 4599020699677346710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_21
+      rect:
+        serializedVersion: 2
+        x: 6246
+        y: 2144
+        width: 444
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fb0f8f97014f4ae20800000000000000
+      internalID: 3361079573528244415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_22
+      rect:
+        serializedVersion: 2
+        x: 6692
+        y: 2146
+        width: 445
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5a8645c455a361f70800000000000000
+      internalID: 9157571030331713701
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_23
+      rect:
+        serializedVersion: 2
+        x: 7138
+        y: 2146
+        width: 444
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1a38f8d5200e4e10800000000000000
+      internalID: 2183683031875205662
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_24
+      rect:
+        serializedVersion: 2
+        x: 7583
+        y: 2145
+        width: 445
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27a51f253ba46a7c0800000000000000
+      internalID: -4060475879976773006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_25
+      rect:
+        serializedVersion: 2
+        x: 8030
+        y: 2145
+        width: 445
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2ab970a68d73bdeb0800000000000000
+      internalID: -4694096783972263006
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_26
+      rect:
+        serializedVersion: 2
+        x: 8476
+        y: 2145
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed98a32d3723c420800000000000000
+      internalID: 2649004149368724961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_27
+      rect:
+        serializedVersion: 2
+        x: 8922
+        y: 2145
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e5a6b5a31657a7a0800000000000000
+      internalID: -6366024905880328730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_28
+      rect:
+        serializedVersion: 2
+        x: 9368
+        y: 2145
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9391a87b80e96aa40800000000000000
+      internalID: 5379160565216844089
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_29
+      rect:
+        serializedVersion: 2
+        x: 9814
+        y: 2145
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 58d66b5420dc77c10800000000000000
+      internalID: 2051333564933762437
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_30
+      rect:
+        serializedVersion: 2
+        x: 10260
+        y: 2145
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e14a1497185323370800000000000000
+      internalID: 8300755893398643742
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_31
+      rect:
+        serializedVersion: 2
+        x: 10706
+        y: 2145
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59e33bc07230783a0800000000000000
+      internalID: -6663353657419678059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_32
+      rect:
+        serializedVersion: 2
+        x: 11152
+        y: 2145
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f609b9ce5165978e0800000000000000
+      internalID: -1695229132564361105
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_33
+      rect:
+        serializedVersion: 2
+        x: 11598
+        y: 2145
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d26ed1e36c19b2910800000000000000
+      internalID: 1813703555578455597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_34
+      rect:
+        serializedVersion: 2
+        x: 12044
+        y: 2145
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1a95e056e5d8feb70800000000000000
+      internalID: 8930512022660864417
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_35
+      rect:
+        serializedVersion: 2
+        x: 12490
+        y: 2145
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 803aacda9ecfc32d0800000000000000
+      internalID: -3297482746568727800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_36
+      rect:
+        serializedVersion: 2
+        x: 12936
+        y: 2145
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1be85a9d83e0a94f0800000000000000
+      internalID: -821328344709230927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_37
+      rect:
+        serializedVersion: 2
+        x: 13382
+        y: 2145
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 88bb212e2830a5240800000000000000
+      internalID: 4781137815080713096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_38
+      rect:
+        serializedVersion: 2
+        x: 13828
+        y: 2145
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cd09d5f0427019260800000000000000
+      internalID: 7102465938797990108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_39
+      rect:
+        serializedVersion: 2
+        x: 14274
+        y: 2146
+        width: 444
+        height: 397
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa72b1b8bc68a50f0800000000000000
+      internalID: -1127440547932592209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_40
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 1743
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f570a8a91c14f030800000000000000
+      internalID: 3527475304666789361
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_41
+      rect:
+        serializedVersion: 2
+        x: 448
+        y: 1743
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e56c115fcd92dd720800000000000000
+      internalID: 2872498166313371230
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_42
+      rect:
+        serializedVersion: 2
+        x: 894
+        y: 1743
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9bbee854ba05bac0800000000000000
+      internalID: -3840151337561048161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_43
+      rect:
+        serializedVersion: 2
+        x: 1340
+        y: 1743
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e10a73155689461e0800000000000000
+      internalID: -2205470356582981602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_44
+      rect:
+        serializedVersion: 2
+        x: 1786
+        y: 1743
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 76b4d13c330326510800000000000000
+      internalID: 1540847021389073255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_45
+      rect:
+        serializedVersion: 2
+        x: 2232
+        y: 1743
+        width: 444
+        height: 399
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0a26470095e34400800000000000000
+      internalID: 307341606351415818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Spawn 1_46
+      rect:
+        serializedVersion: 2
+        x: 2678
+        y: 1743
+        width: 444
+        height: 398
+      alignment: 0
+      pivot: {x: 0.5, y: 0.5}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 512577cdb1156bba0800000000000000
+      internalID: -6073577867357761003
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
