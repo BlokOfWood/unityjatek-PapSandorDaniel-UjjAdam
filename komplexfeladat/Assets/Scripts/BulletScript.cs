@@ -4,8 +4,8 @@ using UnityEngine;
 
 public class BulletScript : MonoBehaviour
 {
-    public GameObject originGameObject;
     public Weapon originWeapon;
+    public string originTag;
     Vector3 startPos;
 
     private void Start()
@@ -27,7 +27,7 @@ public class BulletScript : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         EntityComponent entityRef = collision.GetComponent<EntityComponent>();
-        if(entityRef && collision.gameObject != originGameObject)
+        if(entityRef && !collision.CompareTag(originTag))
         {
             entityRef.CurrentHealth -= originWeapon.Damage;
             Explode();

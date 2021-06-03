@@ -12,7 +12,7 @@ public class Playercontroller : MonoBehaviour
     Rigidbody2D rb;
 
     [Header("Regular Movement")]
-    float lastMoveDirection = 0;
+    float lastMoveDirection = 1;
     float MovementSpeed;
     float xInputAxis;
 
@@ -79,7 +79,7 @@ public class Playercontroller : MonoBehaviour
         if (!ctx.performed) return;
 
         currentBullets.Add(Instantiate(Weapons[CurrIndex].Bullet, transform.position, Quaternion.Euler(new Vector3(0, 0, lastMoveDirection * 90 - 90))));
-        currentBullets[currentBullets.Count - 1].GetComponent<BulletScript>().originGameObject = gameObject;
+        currentBullets[currentBullets.Count - 1].GetComponent<BulletScript>().originTag = tag;
         currentBullets[currentBullets.Count - 1].GetComponent<BulletScript>().originWeapon = Weapons[CurrIndex];
     }
     
