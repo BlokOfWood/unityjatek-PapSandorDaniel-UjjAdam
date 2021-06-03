@@ -159,7 +159,7 @@ MonoBehaviour:
   CurrIndex: 0
   Weapons:
   - {fileID: 11400000, guid: 924f6714b68638641b12b5cbfe6ada21, type: 2}
-  killLevel: -10
+  killLevel: -30
   SpawnOffset: {x: -5, y: 10, z: 0}
 --- !u!114 &3607724052006807072
 MonoBehaviour:

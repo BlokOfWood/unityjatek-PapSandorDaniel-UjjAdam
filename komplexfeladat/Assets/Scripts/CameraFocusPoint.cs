@@ -17,17 +17,19 @@ public class CameraFocusPoint : MonoBehaviour
     public float MinimumSize;
     public Cinemachine.CinemachineVirtualCamera virtualCamera;
 
+    GameObject bravoObject;
+
     private void Awake()
     {
         players = new List<GameObject>();
         BackgroundAspectRatio = Background.transform.localScale.x / Background.transform.localScale.y;
+        bravoObject = GameObject.Find("padlo (22)").GetComponent<Win>().BravoObject;
     }
 
     private void Update()
     {
-
-
         players.RemoveAll(x => x == null);
+
         if (players.Count == 0)
         {
 
@@ -67,5 +69,6 @@ public class CameraFocusPoint : MonoBehaviour
         virtualCamera.m_Lens.OrthographicSize = Mathf.Max(ortographicHeight, ortographicWidth, MinimumSize) + EdgePadding;
 
         Background.transform.localScale = new Vector3(virtualCamera.m_Lens.OrthographicSize * 0.8f * BackgroundAspectRatio, virtualCamera.m_Lens.OrthographicSize * 0.8f, 1);
+        bravoObject.transform.localScale = new Vector3(virtualCamera.m_Lens.OrthographicSize * 0.16f * BackgroundAspectRatio, virtualCamera.m_Lens.OrthographicSize * 0.28f, 1);
     }
 }
