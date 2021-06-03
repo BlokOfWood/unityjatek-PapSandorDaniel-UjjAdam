@@ -193,12 +193,12 @@ TextureImporter:
       name: Goatman_Spawn_0
       rect:
         serializedVersion: 2
-        x: 9
-        y: 4134
-        width: 436
-        height: 572
+        x: 2
+        y: 4127
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -214,12 +214,12 @@ TextureImporter:
       name: Goatman_Spawn_1
       rect:
         serializedVersion: 2
-        x: 453
-        y: 4134
-        width: 438
-        height: 572
+        x: 448
+        y: 4127
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -235,12 +235,12 @@ TextureImporter:
       name: Goatman_Spawn_2
       rect:
         serializedVersion: 2
-        x: 899
-        y: 4135
-        width: 437
-        height: 571
+        x: 894
+        y: 4127
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -256,12 +256,12 @@ TextureImporter:
       name: Goatman_Spawn_3
       rect:
         serializedVersion: 2
-        x: 1345
-        y: 4134
-        width: 428
-        height: 571
+        x: 1340
+        y: 4127
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -277,12 +277,12 @@ TextureImporter:
       name: Goatman_Spawn_4
       rect:
         serializedVersion: 2
-        x: 1791
-        y: 4141
-        width: 428
-        height: 564
+        x: 1787
+        y: 4127
+        width: 443
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -298,12 +298,12 @@ TextureImporter:
       name: Goatman_Spawn_5
       rect:
         serializedVersion: 2
-        x: 2237
-        y: 4134
-        width: 432
-        height: 572
+        x: 2232
+        y: 4127
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -319,12 +319,12 @@ TextureImporter:
       name: Goatman_Spawn_6
       rect:
         serializedVersion: 2
-        x: 2681
-        y: 4138
-        width: 429
-        height: 567
+        x: 2678
+        y: 4127
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -340,12 +340,12 @@ TextureImporter:
       name: Goatman_Spawn_7
       rect:
         serializedVersion: 2
-        x: 3128
-        y: 4137
-        width: 434
-        height: 566
+        x: 3124
+        y: 4127
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -361,12 +361,12 @@ TextureImporter:
       name: Goatman_Spawn_8
       rect:
         serializedVersion: 2
-        x: 3574
-        y: 4134
-        width: 431
-        height: 570
+        x: 3570
+        y: 4127
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -382,12 +382,12 @@ TextureImporter:
       name: Goatman_Spawn_9
       rect:
         serializedVersion: 2
-        x: 4018
-        y: 4135
-        width: 432
-        height: 563
+        x: 4016
+        y: 4127
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -403,12 +403,12 @@ TextureImporter:
       name: Goatman_Spawn_10
       rect:
         serializedVersion: 2
-        x: 4470
-        y: 4135
-        width: 423
-        height: 563
+        x: 4462
+        y: 4127
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -424,12 +424,12 @@ TextureImporter:
       name: Goatman_Spawn_11
       rect:
         serializedVersion: 2
-        x: 4910
-        y: 4135
-        width: 436
-        height: 562
+        x: 4908
+        y: 4127
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -445,12 +445,12 @@ TextureImporter:
       name: Goatman_Spawn_12
       rect:
         serializedVersion: 2
-        x: 5358
-        y: 4134
-        width: 428
-        height: 563
+        x: 5354
+        y: 4127
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -466,12 +466,12 @@ TextureImporter:
       name: Goatman_Spawn_13
       rect:
         serializedVersion: 2
-        x: 5810
-        y: 4136
-        width: 425
-        height: 557
+        x: 5800
+        y: 4127
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -487,12 +487,12 @@ TextureImporter:
       name: Goatman_Spawn_14
       rect:
         serializedVersion: 2
-        x: 10
-        y: 3545
-        width: 432
-        height: 572
+        x: 2
+        y: 3538
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -508,12 +508,12 @@ TextureImporter:
       name: Goatman_Spawn_15
       rect:
         serializedVersion: 2
-        x: 459
-        y: 3544
-        width: 430
-        height: 572
+        x: 448
+        y: 3538
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -529,12 +529,12 @@ TextureImporter:
       name: Goatman_Spawn_16
       rect:
         serializedVersion: 2
-        x: 900
-        y: 3548
-        width: 432
-        height: 567
+        x: 894
+        y: 3538
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -550,12 +550,12 @@ TextureImporter:
       name: Goatman_Spawn_17
       rect:
         serializedVersion: 2
-        x: 1348
-        y: 3551
-        width: 427
-        height: 562
+        x: 1340
+        y: 3538
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -571,12 +571,12 @@ TextureImporter:
       name: Goatman_Spawn_18
       rect:
         serializedVersion: 2
-        x: 1794
-        y: 3554
-        width: 431
-        height: 559
+        x: 1786
+        y: 3538
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -592,12 +592,12 @@ TextureImporter:
       name: Goatman_Spawn_19
       rect:
         serializedVersion: 2
-        x: 11
-        y: 2956
-        width: 424
-        height: 568
+        x: 2
+        y: 2949
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -613,12 +613,12 @@ TextureImporter:
       name: Goatman_Spawn_20
       rect:
         serializedVersion: 2
-        x: 457
-        y: 2960
-        width: 427
-        height: 564
+        x: 448
+        y: 2949
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -634,12 +634,12 @@ TextureImporter:
       name: Goatman_Spawn_21
       rect:
         serializedVersion: 2
-        x: 903
-        y: 2960
-        width: 429
-        height: 567
+        x: 894
+        y: 2949
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -655,12 +655,12 @@ TextureImporter:
       name: Goatman_Spawn_22
       rect:
         serializedVersion: 2
-        x: 1344
-        y: 2963
-        width: 432
-        height: 562
+        x: 1340
+        y: 2949
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -676,12 +676,12 @@ TextureImporter:
       name: Goatman_Spawn_23
       rect:
         serializedVersion: 2
-        x: 1795
-        y: 2959
-        width: 431
-        height: 566
+        x: 1786
+        y: 2949
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -697,12 +697,12 @@ TextureImporter:
       name: Goatman_Spawn_24
       rect:
         serializedVersion: 2
-        x: 2237
-        y: 2958
-        width: 432
-        height: 569
+        x: 2232
+        y: 2949
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -718,12 +718,12 @@ TextureImporter:
       name: Goatman_Spawn_25
       rect:
         serializedVersion: 2
-        x: 2686
-        y: 2960
-        width: 422
-        height: 566
+        x: 2678
+        y: 2949
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -739,12 +739,12 @@ TextureImporter:
       name: Goatman_Spawn_26
       rect:
         serializedVersion: 2
-        x: 3129
-        y: 2960
-        width: 433
-        height: 567
+        x: 3124
+        y: 2949
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -760,12 +760,12 @@ TextureImporter:
       name: Goatman_Spawn_27
       rect:
         serializedVersion: 2
-        x: 3578
-        y: 2960
-        width: 428
-        height: 566
+        x: 3570
+        y: 2949
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -781,12 +781,12 @@ TextureImporter:
       name: Goatman_Spawn_28
       rect:
         serializedVersion: 2
-        x: 4017
-        y: 2960
-        width: 436
-        height: 565
+        x: 4016
+        y: 2949
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -802,12 +802,12 @@ TextureImporter:
       name: Goatman_Spawn_29
       rect:
         serializedVersion: 2
-        x: 4472
-        y: 2961
-        width: 421
-        height: 566
+        x: 4462
+        y: 2949
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -823,12 +823,12 @@ TextureImporter:
       name: Goatman_Spawn_30
       rect:
         serializedVersion: 2
-        x: 4912
-        y: 2962
-        width: 433
-        height: 564
+        x: 4908
+        y: 2949
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -844,12 +844,12 @@ TextureImporter:
       name: Goatman_Spawn_31
       rect:
         serializedVersion: 2
-        x: 5361
-        y: 2960
-        width: 423
-        height: 565
+        x: 5354
+        y: 2949
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []
@@ -865,12 +865,12 @@ TextureImporter:
       name: Goatman_Spawn_32
       rect:
         serializedVersion: 2
-        x: 5804
-        y: 2961
-        width: 432
-        height: 564
+        x: 5800
+        y: 2949
+        width: 444
+        height: 585
       alignment: 0
-      pivot: {x: 0, y: 0}
+      pivot: {x: 0.5, y: 0.5}
       border: {x: 0, y: 0, z: 0, w: 0}
       outline: []
       physicsShape: []

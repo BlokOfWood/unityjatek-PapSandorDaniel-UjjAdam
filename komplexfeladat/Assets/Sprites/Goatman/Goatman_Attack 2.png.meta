@@ -1,0 +1,420 @@
+fileFormatVersion: 2
+guid: 9086a0e33f195f64898813bd645e7caf
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5586510295386085370
+    second: Goatman_Spawn_0
+  - first:
+      213: -6074933797981136028
+    second: Goatman_Spawn_1
+  - first:
+      213: 7318357107887949072
+    second: Goatman_Spawn_2
+  - first:
+      213: -4617592131131183040
+    second: Goatman_Spawn_3
+  - first:
+      213: -5881120802745388143
+    second: Goatman_Spawn_4
+  - first:
+      213: -3687679948799662906
+    second: Goatman_Spawn_5
+  - first:
+      213: -9082528470660851213
+    second: Goatman_Spawn_6
+  - first:
+      213: 1478193804221291949
+    second: Goatman_Spawn_7
+  - first:
+      213: -6990427838098406373
+    second: Goatman_Spawn_8
+  - first:
+      213: -3633548191671632409
+    second: Goatman_Spawn_9
+  - first:
+      213: 2582885404203912851
+    second: Goatman_Spawn_10
+  - first:
+      213: -3355768960757764838
+    second: Goatman_Spawn_11
+  - first:
+      213: -6256033577646884312
+    second: Goatman_Spawn_12
+  - first:
+      213: -5864263609631819395
+    second: Goatman_Spawn_13
+  - first:
+      213: -9168823762106008882
+    second: Goatman_Spawn_14
+  - first:
+      213: 2751714894379051249
+    second: Goatman_Spawn_15
+  - first:
+      213: 855096681208287662
+    second: Goatman_Spawn_16
+  - first:
+      213: -8707384047459244304
+    second: Goatman_Spawn_17
+  - first:
+      213: -3989338140597334603
+    second: Goatman_Spawn_18
+  - first:
+      213: -2519003845567376903
+    second: Goatman_Spawn_19
+  - first:
+      213: -2348728653464226668
+    second: Goatman_Spawn_20
+  - first:
+      213: -6344860052024460919
+    second: Goatman_Spawn_21
+  - first:
+      213: 4903209508708205798
+    second: Goatman_Spawn_22
+  - first:
+      213: -6041991781502476139
+    second: Goatman_Spawn_23
+  - first:
+      213: -8972804061497867403
+    second: Goatman_Spawn_24
+  - first:
+      213: -1353531468561519410
+    second: Goatman_Spawn_25
+  - first:
+      213: -5415049596290094958
+    second: Goatman_Spawn_26
+  - first:
+      213: -8782525734612931146
+    second: Goatman_Spawn_27
+  - first:
+      213: -1288873201294799828
+    second: Goatman_Spawn_28
+  - first:
+      213: -3369049653274639633
+    second: Goatman_Spawn_29
+  - first:
+      213: -2802515154035317076
+    second: Goatman_Spawn_30
+  - first:
+      213: -3996258263474372578
+    second: Goatman_Spawn_31
+  - first:
+      213: -7839204783880849296
+    second: Goatman_Spawn_32
+  - first:
+      213: -3470562065253455088
+    second: Goatman_Spawn 1_0
+  - first:
+      213: -6318168203670325802
+    second: Goatman_Spawn 1_1
+  - first:
+      213: 4512360718714057167
+    second: Goatman_Spawn 1_2
+  - first:
+      213: -793982470993620521
+    second: Goatman_Spawn 1_3
+  - first:
+      213: 319558638386729865
+    second: Goatman_Spawn 1_4
+  - first:
+      213: 5049309960761078703
+    second: Goatman_Spawn 1_5
+  - first:
+      213: -2076444322051779331
+    second: Goatman_Spawn 1_6
+  - first:
+      213: 461333922677391955
+    second: Goatman_Spawn 1_7
+  - first:
+      213: -3630096745360246777
+    second: Goatman_Spawn 1_8
+  - first:
+      213: 1017390295381422047
+    second: Goatman_Spawn 1_9
+  - first:
+      213: -2444842422789977739
+    second: Goatman_Spawn 1_10
+  - first:
+      213: 5618873480335342491
+    second: Goatman_Spawn 1_11
+  - first:
+      213: -6053719624080122517
+    second: Goatman_Spawn 1_12
+  - first:
+      213: 8585986405009958028
+    second: Goatman_Spawn 1_13
+  - first:
+      213: -5841307941083007326
+    second: Goatman_Spawn 1_14
+  - first:
+      213: -4288478929513112692
+    second: Goatman_Spawn 1_15
+  - first:
+      213: -2946850528591672112
+    second: Goatman_Spawn 1_16
+  - first:
+      213: 6537962844742136897
+    second: Goatman_Spawn 1_17
+  - first:
+      213: 9048795484587257001
+    second: Goatman_Spawn 1_18
+  - first:
+      213: 9172414294774791623
+    second: Goatman_Spawn 1_19
+  - first:
+      213: 4599020699677346710
+    second: Goatman_Spawn 1_20
+  - first:
+      213: 3361079573528244415
+    second: Goatman_Spawn 1_21
+  - first:
+      213: 9157571030331713701
+    second: Goatman_Spawn 1_22
+  - first:
+      213: 2183683031875205662
+    second: Goatman_Spawn 1_23
+  - first:
+      213: -4060475879976773006
+    second: Goatman_Spawn 1_24
+  - first:
+      213: -4694096783972263006
+    second: Goatman_Spawn 1_25
+  - first:
+      213: 2649004149368724961
+    second: Goatman_Spawn 1_26
+  - first:
+      213: -6366024905880328730
+    second: Goatman_Spawn 1_27
+  - first:
+      213: 5379160565216844089
+    second: Goatman_Spawn 1_28
+  - first:
+      213: 2051333564933762437
+    second: Goatman_Spawn 1_29
+  - first:
+      213: 8300755893398643742
+    second: Goatman_Spawn 1_30
+  - first:
+      213: -6663353657419678059
+    second: Goatman_Spawn 1_31
+  - first:
+      213: -1695229132564361105
+    second: Goatman_Spawn 1_32
+  - first:
+      213: 1813703555578455597
+    second: Goatman_Spawn 1_33
+  - first:
+      213: 8930512022660864417
+    second: Goatman_Spawn 1_34
+  - first:
+      213: -3297482746568727800
+    second: Goatman_Spawn 1_35
+  - first:
+      213: -821328344709230927
+    second: Goatman_Spawn 1_36
+  - first:
+      213: 4781137815080713096
+    second: Goatman_Spawn 1_37
+  - first:
+      213: 7102465938797990108
+    second: Goatman_Spawn 1_38
+  - first:
+      213: -1127440547932592209
+    second: Goatman_Spawn 1_39
+  - first:
+      213: 3527475304666789361
+    second: Goatman_Spawn 1_40
+  - first:
+      213: 2872498166313371230
+    second: Goatman_Spawn 1_41
+  - first:
+      213: -3840151337561048161
+    second: Goatman_Spawn 1_42
+  - first:
+      213: -2205470356582981602
+    second: Goatman_Spawn 1_43
+  - first:
+      213: 1540847021389073255
+    second: Goatman_Spawn 1_44
+  - first:
+      213: 307341606351415818
+    second: Goatman_Spawn 1_45
+  - first:
+      213: -6073577867357761003
+    second: Goatman_Spawn 1_46
+  - first:
+      213: 1680076948517977666
+    second: Goatman_Attack 1_0
+  - first:
+      213: 7371698966569760743
+    second: Goatman_Attack 1_1
+  - first:
+      213: 5054351203800911461
+    second: Goatman_Attack 1_2
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 0
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 16384
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Goatman_Attack 1_0
+      rect:
+        serializedVersion: 2
+        x: 2
+        y: 404
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 24e7cbf4515d05710800000000000000
+      internalID: 1680076948517977666
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Attack 1_1
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 404
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7318537298d4660800000000000000
+      internalID: 7371698966569760743
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Goatman_Attack 1_2
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 404
+        width: 129
+        height: 129
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 56e0f9804a9a42640800000000000000
+      internalID: 5054351203800911461
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
