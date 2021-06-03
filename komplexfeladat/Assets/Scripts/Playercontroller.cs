@@ -11,8 +11,9 @@ public class Playercontroller : MonoBehaviour
     Rigidbody2D rb;
 
     [Header("Regular Movement")]
-    float MovementSpeed;
     float lastMoveDirection = 0;
+    float MovementSpeed;
+    float xInputAxis;
 
     [Header("Dash")]
     public float DashDuration;
@@ -41,34 +42,8 @@ public class Playercontroller : MonoBehaviour
         currentBullets = new List<GameObject>();
     }
 
-    void Update()
-    {
-        /*Dash Trigger*/
-        if (InputActions.PlayerMove.Dash.triggered)
-            DashCurrTime = DashDuration;
-
-        /*Jump*/
-        if (InputActions.PlayerMove.Ugras.triggered && rb.velocity.y < JumpVeloSens)
-        {
-            rb.velocity += Vector2.up * JumpSpeed;
-        }
-
-        /*Shoot Trigger*/
-        if(InputActions.PlayerMove.Shooting.triggered)
-        {
-            Shoot();
-        }
-    }
-
     void FixedUpdate()
     {
-        /*Regular Movement Input*/
-        float xInputAxis = InputActions.PlayerMove.Mozgo.ReadValue<float>();
-
-        /*Saving Last Move Direction*/
-        if (Mathf.Abs(xInputAxis) == 1)
-            lastMoveDirection = xInputAxis;
-
         /*Movement*/
         if (DashCurrTime > 0)
         {
@@ -79,10 +54,39 @@ public class Playercontroller : MonoBehaviour
             rb.velocity = new Vector2(MovementSpeed * xInputAxis, rb.velocity.y);
     }
 
-    void Shoot()
+    public void Shoot(InputAction.CallbackContext ctx)
     {
-        currentBullets.Add(Instantiate(Weapons[CurrIndex].Bullet, transform.position, Quaternion.Euler(Vector3.right)));
+        if (!ctx.performed) return;
+
+        currentBullets.Add(Instantiate(Weapons[CurrIndex].Bullet, transform.position, Quaternion.Euler(new Vector3(0, 0, lastMoveDirection * 90 - 90))));
         currentBullets[currentBullets.Count - 1].GetComponent<BulletScript>().originGameObject = gameObject;
         currentBullets[currentBullets.Count - 1].GetComponent<BulletScript>().originWeapon = Weapons[CurrIndex];
+    }
+    
+    public void Jump(InputAction.CallbackContext ctx)
+    {
+        if (!ctx.performed) return;
+
+        if (rb.velocity.y < JumpVeloSens)
+        {
+            rb.velocity += Vector2.up * JumpSpeed;
+        }
+    }
+
+    public void Dash(InputAction.CallbackContext ctx)
+    {
+        if (!ctx.performed) return;
+
+        if(DashCurrTime <= 0)
+            DashCurrTime = DashDuration;
+    }
+
+    public void MovementInput(InputAction.CallbackContext ctx)
+    {
+        xInputAxis = ctx.ReadValue<float>();
+
+        /*Saving Last Move Direction*/
+        if (Mathf.Abs(xInputAxis) == 1)
+            lastMoveDirection = xInputAxis;
     }
 }

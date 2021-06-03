@@ -17,9 +17,7 @@ public class BulletScript : MonoBehaviour
     {
         if (originWeapon.Range < Vector2.Distance(startPos, transform.position))
         {
-            GetComponent<Animator>().SetTrigger("Destroy"); 
-            Destroy(gameObject, GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
-            Destroy(this);
+            Explode();
             return;
         }
 
@@ -29,10 +27,17 @@ public class BulletScript : MonoBehaviour
     private void OnTriggerEnter2D(Collider2D collision)
     {
         EntityComponent entityRef = collision.GetComponent<EntityComponent>();
-        if(entityRef)
+        if(entityRef && collision.gameObject != originGameObject)
         {
             entityRef.CurrentHealth -= originWeapon.Damage;
-            Destroy(gameObject);
+            Explode();
         }
+    }
+
+    private void Explode()
+    {
+        GetComponent<Animator>().SetTrigger("Destroy");
+        Destroy(gameObject, GetComponent<Animator>().GetCurrentAnimatorStateInfo(0).length);
+        Destroy(this);
     }
 }
