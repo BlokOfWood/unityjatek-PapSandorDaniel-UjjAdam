@@ -1170,7 +1170,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 1.870414
+  orthographic size: 13
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -1552,8 +1552,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 661000531}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.74, y: -0.46, z: 10}
-  m_LocalScale: {x: 10.212471, y: 6.5243344, z: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 10}
+  m_LocalScale: {x: 16, y: 9, z: 1}
   m_Children: []
   m_Father: {fileID: 2064622431}
   m_RootOrder: 1
@@ -3052,7 +3052,7 @@ MonoBehaviour:
   cameraFocusPoint: {fileID: 1625641960}
   playerPrefab: {fileID: 3607724052006807078, guid: 412594b1621d7924184b538a832a5673, type: 3}
   playerSpawnPoints:
-  - {x: 3, y: 0, z: 0}
+  - {x: 6, y: 0, z: 0}
   - {x: 0, y: 0, z: 0}
 --- !u!4 &1395133032
 Transform:
@@ -3530,6 +3530,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: c4459e6872426dd47918f079f8ddde24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  Background: {fileID: 661000531}
   players: []
   EdgePadding: 3
   MinimumSize: 10
@@ -4241,7 +4242,7 @@ MonoBehaviour:
   m_Follow: {fileID: 1625641962}
   m_Lens:
     FieldOfView: 60
-    OrthographicSize: 1.870414
+    OrthographicSize: 13
     NearClipPlane: 0.3
     FarClipPlane: 1000
     Dutch: 0

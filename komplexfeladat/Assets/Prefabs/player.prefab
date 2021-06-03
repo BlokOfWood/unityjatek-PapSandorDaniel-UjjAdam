@@ -17,7 +17,7 @@ GameObject:
   - component: {fileID: 3607724052006807072}
   m_Layer: 0
   m_Name: player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -137,7 +137,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   entity: {fileID: 11400000, guid: b8a7ee4ec2307df48bc956fe374f3313, type: 2}
-  CurrentHealth: 0
+  CurrentHealth: 3
+  puftofsmoke: {fileID: 774151287936223652, guid: 27ba6f998388efd44b4871215a8337d0, type: 3}
 --- !u!114 &3607724052006807075
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -158,6 +159,8 @@ MonoBehaviour:
   CurrIndex: 0
   Weapons:
   - {fileID: 11400000, guid: 924f6714b68638641b12b5cbfe6ada21, type: 2}
+  killLevel: -10
+  SpawnOffset: {x: -5, y: 10, z: 0}
 --- !u!114 &3607724052006807072
 MonoBehaviour:
   m_ObjectHideFlags: 0

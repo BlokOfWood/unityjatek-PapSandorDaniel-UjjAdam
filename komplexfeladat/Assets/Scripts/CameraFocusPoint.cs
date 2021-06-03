@@ -1,11 +1,17 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
 using System.Linq;
+#if UNITY_EDITOR
+using UnityEditor.SceneManagement;
+#endif
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class CameraFocusPoint : MonoBehaviour
 {
     public GameObject Background;
+    float BackgroundAspectRatio;
     public List<GameObject> players = new List<GameObject>();
     public float EdgePadding;
     public float MinimumSize;
@@ -14,11 +20,27 @@ public class CameraFocusPoint : MonoBehaviour
     private void Awake()
     {
         players = new List<GameObject>();
+        BackgroundAspectRatio = Background.transform.localScale.x / Background.transform.localScale.y;
     }
 
     private void Update()
     {
-        Vector3 middlePoint = new Vector3();
+
+
+        players.RemoveAll(x => x == null);
+        if (players.Count == 0)
+        {
+
+#if UNITY_EDITOR
+            EditorSceneManager.LoadScene(0);
+#endif
+#if UNITY_STANDALONE
+            SceneManager.LoadScene(0);
+#endif
+            return;
+        }
+
+        Vector3 middlePoint = new Vector3(0,0,0);
 
         List<Vector3> positions = players.ToList().ConvertAll(x => x.transform.position);
 
@@ -28,11 +50,22 @@ public class CameraFocusPoint : MonoBehaviour
         }
         middlePoint /= players.Count;
 
-        transform.position = middlePoint;
+        try
+        {
+            if (transform)
+            {
+                transform.position = middlePoint;
+            }
+        }
+        catch(Exception)
+        {
+            return;
+        }
 
         var ortographicHeight = Mathf.Abs(players[0].transform.position.y - middlePoint.y);
         var ortographicWidth = Mathf.Abs(players[0].transform.position.x - middlePoint.x) / virtualCamera.m_Lens.Aspect;
         virtualCamera.m_Lens.OrthographicSize = Mathf.Max(ortographicHeight, ortographicWidth, MinimumSize) + EdgePadding;
-  
+
+        Background.transform.localScale = new Vector3(virtualCamera.m_Lens.OrthographicSize * 0.8f * BackgroundAspectRatio, virtualCamera.m_Lens.OrthographicSize * 0.8f, 1);
     }
 }
