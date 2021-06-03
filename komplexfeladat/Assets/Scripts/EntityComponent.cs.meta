@@ -3,7 +3,9 @@ guid: 319356cc88433c74097d12488a326033
 MonoImporter:
   externalObjects: {}
   serializedVersion: 2
-  defaultReferences: []
+  defaultReferences:
+  - entity: {instanceID: 0}
+  - puftofsmoke: {fileID: 774151287936223652, guid: 27ba6f998388efd44b4871215a8337d0, type: 3}
   executionOrder: 0
   icon: {instanceID: 0}
   userData: 

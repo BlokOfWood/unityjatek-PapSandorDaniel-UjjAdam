@@ -1,5 +1,7 @@
+using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Linq;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
@@ -30,6 +32,10 @@ public class Playercontroller : MonoBehaviour
     public Weapon[] Weapons;
     List<GameObject> currentBullets;
 
+    [Header("Falling")]
+    public float killLevel;
+    public Vector3 SpawnOffset;
+
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
@@ -44,6 +50,7 @@ public class Playercontroller : MonoBehaviour
 
     void FixedUpdate()
     {
+
         /*Movement*/
         if (DashCurrTime > 0)
         {
@@ -52,6 +59,20 @@ public class Playercontroller : MonoBehaviour
         }
         else
             rb.velocity = new Vector2(MovementSpeed * xInputAxis, rb.velocity.y);
+
+        if(transform.position.y < killLevel)
+        {
+            GetComponent<EntityComponent>().CurrentHealth--;
+            try
+            {
+                GameObject otherPlayer = GameObject.FindGameObjectsWithTag("Player").First(x => x != gameObject);
+                transform.position = otherPlayer.transform.position + SpawnOffset;
+            }
+            catch(Exception)
+            {
+                return;
+            }
+        }
     }
 
     public void Shoot(InputAction.CallbackContext ctx)
